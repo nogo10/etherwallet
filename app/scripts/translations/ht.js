@@ -456,245 +456,393 @@ PARITY_GasLimitExceeded     : 'KÒB TRANSFÈ A DEPASE LIMIT GAZ  KOUNYE A. LIMIT
 
 PARITY_InvalidGasLimit      : "Supplied gas is beyond limit.",
 
-/* Tranlsation Info */
-translate_version           : '0.5 ',
-Translator_Desc             : 'Kreyol yo ',
-TranslatorName_1            : 'JJ ',
-TranslatorAddr_1            : '0x152e77CC3Dd8d86471ebEa8e93B9924A41e7055a',
-/* Translator 1             : Insert Comments Here */
-TranslatorName_2            : ' ',
-TranslatorAddr_2            : ' ',
-/* Translator 2             : Insert Comments Here */
-TranslatorName_3            : ' ',
-TranslatorAddr_3            : ' ',
-/* Translator 3             : Insert Comments Here */
-TranslatorName_4            : ' ',
-TranslatorAddr_4            : ' ',
-/* Translator 4             : Insert Comments Here */
-TranslatorName_5            : ' ',
-TranslatorAddr_5            : ' ',
-/* Translator 5             : Insert Comments Here */
+/* Tranlsation Info */      : /*ENFÒMASYON SOU TRADIKSYON AN*/			
+translate_version           : '0.1 ',								
+Translator_Desc             : ' YON MÈSI POU TRADIKTÈ N’YO ', 				
+TranslatorName_1            :'[Nogo10](https://www.myetherwallet.com/?gaslimit=21000&to= 0x152e77CC3Dd8d86471ebEa8e93B9924A41e7055a&value=1.0#VOYE-TRANSFÈ A) · ',											
+TranslatorAddr_1            : ' 0x152e77CC3Dd8d86471ebEa8e93B9924A41e7055a ',\	
+TranslatorName_2            :  NON TRADIKTÈ_2  'JJCROISIERE · ',			
+TranslatorAddr_2            : TRADIKTÈ ADDR_2'',						
+/* Translator 2                  : TRADIKTÈ 2'',	*/ 					
+TranslatorName_3            : NON TRADIKTÈ A  'JJCROISIERE ',
 
-/* Help - Nothing after this point has to be translated. If you feel like being extra helpful, go for it. */
-HELP_Warning                : 'If you created a wallet -or- downloaded the repo before **Dec. 31st, 2015**, please check your wallets &amp; download a new version of the repo. Click for details. ',
-HELP_Desc                   : 'Do you see something missing? Have another question? [Get in touch with us](mailto:support@myetherwallet.com), and we will not only answer your question, we will update this page to be more useful to people in the future! ',
-HELP_Remind_Title           : 'Some reminders ',
-HELP_Remind_Desc_1          : '**Ethereum, MyEtherWallet.com & MyEtherWallet CX, and some of the underlying Javascript libraries we use are under active development.** While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETH to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but **we are not responsible for the lost Ether**. ',
-HELP_Remind_Desc_2          : 'MyEtherWallet.com & MyEtherWallet CX are not "web wallets". You do not create an account or give us your Ether to hold onto. All data never leaves your computer/your browser. We make it easy for you to create, save, and access your information and interact with the blockchain. ',
-HELP_Remind_Desc_3          : 'If you do not save your private key & password, there is no way to recover access to your wallet or the funds it holds.  Back them up in multiple physical locations &ndash; not just on your computer! ',
+TranslatorAddr_3            : ' TRADIKTÈ ADDDR_3'',
 
-HELP_0_Title                : '0) I\'m new. What do I do? ',
-HELP_0_Desc_1               : 'MyEtherWallet gives you the ability to generate new wallets so you can store your Ether yourself, not on an exchange. This process happens entirely on your computer, not our servers. Therefore, when you generate a new wallet, **you are responsible for safely backing it up**. ',
-HELP_0_Desc_2               : 'Create a new wallet. ',
-HELP_0_Desc_3               : 'Back the wallet up. ',
-HELP_0_Desc_4               : 'Verify you have access to this new wallet and have correctly saved all necessary information. ',
-HELP_0_Desc_5               : 'Transfer Ether to this new wallet. ',
+/* Translator 3             :  TRADIKTÈ  3  : METE KÒMANTÈ YO LA.*/
 
-HELP_1_Title                : '1) How do I create a new wallet? ',
-HELP_1_Desc_1               : 'Go to the "Generate Wallet" page. ',
-HELP_1_Desc_2               : 'Go to the "Add Wallet" page & select "Generate New Wallet" ',
-HELP_1_Desc_3               : 'Enter a strong password. If you think you may forget it, save it somewhere safe. You will need this password to send transactions. ',
-HELP_1_Desc_4               : 'Click "GENERATE". ',
-HELP_1_Desc_5               : 'Your wallet has now been generated. ',
+TranslatorName_4            : NON TRADIKTÈ_4 '',
 
-HELP_2a_Desc_1              : 'You should always back up your wallet externally and in multiple physical locations - like on a USB drive and/or a piece of paper. ',
-HELP_2a_Desc_2              : 'Save the address. You can keep it to yourself or share it with others. That way, others can transfer ether to you. ',
-HELP_2a_Desc_3              : 'Save versions of the private key. Do not share it with anyone else. Your private key is necessary when you want to access your Ether to send it! There are 3 types of private keys ',
-HELP_2a_Desc_4              : 'Place your address, versions of the private key, and the PDF version of your paper wallet in a folder. Save this on your computer and a USB drive. ',
-HELP_2a_Desc_5              : 'Print the wallet if you have a printer. Otherwise, write down your private key and address on a piece of paper. Store this as a secure location, separate from your computer and the USB drive. ',
-HELP_2a_Desc_6              : 'Keep in mind, you must prevent loss of the keys and password due to loss or failure of you hard drive failure, or USB drive, or piece of paper. You also must keep in mind physical loss / damage of an entire area (think fire or flood). ',
+TranslatorAddr_4            :  TRADIKTÈADDR_4'',
 
-HELP_2b_Title               : '2b) How do I safely / offline / cold storage with MyEtherWallet? ',
-HELP_2b_Desc_1              : 'Go to [https://github.com/kvhnuke/etherwallet/releases/latest](https://github.com/kvhnuke/etherwallet/releases/latest). ',
-HELP_2b_Desc_2              : 'Click on `dist-vX.X.X.X.zip`. ',
-HELP_2b_Desc_3              : 'Move zip to an airgapped computer. ',
-HELP_2b_Desc_4              : 'Unzip it and double-click `index.html`. ',
-HELP_2b_Desc_5              : 'Generate a wallet with a strong password. ',
-HELP_2b_Desc_6              : 'Save the address. Save versions of the private key. Save the password if you might not remember it forever. ',
-HELP_2b_Desc_7              : 'Store these papers / USBs in multiple physically separate locations. ',
-HELP_2b_Desc_8              : 'Go to the "View Wallet Info" page and type in your private key / password to ensure they are correct and access your wallet. Check that the address you wrote down is the same. ',
+/* Translator 4             :TRADIKTÈ 4  : METE KÒMANTÈ W’ YO LA.*/
 
-HELP_3_Title                : '3) How do I verify I have access to my new wallet? ',
-HELP_3_Desc_1               : '**Before you send any Ether to your new wallet**, you should ensure you have access to it. ',
-HELP_3_Desc_2               : 'Navigate to the "View Wallet Info" page. ',
-HELP_3_Desc_3               : 'Navigate to the MyEtherWallet.com "View Wallet Info" page. ',
-HELP_3_Desc_4               : 'Select your wallet file -or- your private key and unlock your wallet. ',
-HELP_3_Desc_5               : 'If the wallet is encrypted, a text box will automatically appear. Enter the password. ',
-HELP_3_Desc_6               : 'Click the "Unlock Wallet" button. ',
-HELP_3_Desc_7               : 'Your wallet information should show up. Find your account address, next to a colorful, circular icon. This icon visually represents your address. Be certain that the address is the address you have saved to your text document and is on your paper wallet. ',
-HELP_3_Desc_8               : 'If you are planning on holding a large amount of ether, we recommend that send a small amount of ether from new wallet before depositing a large amount. Send 0.001 ether to your new wallet, access that wallet, send that 0.001 ether to another address, and ensure everything works smoothly. ',
+TranslatorName_5            :  NON TRADIKTÈ_5'',
 
-HELP_4_Title                : '4) How do I send Ether from one wallet to another? ',
-HELP_4_Desc_1               : 'If you plan to move a large amount of ether, you should test sending a small amount to your wallet first to ensure everything goes as planned. ',
-HELP_4_Desc_2               : 'Navigate to the "Send Ether & Tokens" page. ',
-HELP_4_Desc_3               : 'Select your wallet file -or- your private key and unlock your wallet. ',
-HELP_4_Desc_4               : 'If the wallet is encrypted, a text box will automatically appear. Enter the password. ',
-HELP_4_Desc_5               : 'Click the "Unlock Wallet" button. ',
-HELP_4_Desc_6               : 'Enter the address you would like to send to in the "To Address:" field. ',
-HELP_4_Desc_7               : 'Enter the amount you would like to send. You can also click the "Send Entire Balance" link if you would like the transfer the entire balance. ',
-HELP_4_Desc_9               : 'Click "Generate Transaction". ',
-HELP_4_Desc_10              : 'A couple more fields will appear. This is your browser generating the transaction. ',
-HELP_4_Desc_11              : 'Click the blue "Send Transaction" button below that. ',
-HELP_4_Desc_12              : 'A pop-up will appear. Verify that the amount and the address you are sending to are correct. Then click "Yes, I am sure! Make transaction." button. ',
-HELP_4_Desc_13              : 'The transaction will be submitted. The TX Hash will display. You can click that TX Hash to see it on the blockchain. ',
+TranslatorAddr_5            : TRADIKTÈADDR_5 '',
 
-HELP_4CX_Title              : '4) How do I send Ether using MyEtherWallet CX? ',
-HELP_4CX_Desc_1             : 'First, you need to add a wallet. Once you have done that, you have 2 options: the "QuickSend" functionality from the Chrome Extension icon or the "Send Ether & Tokens" page. ',
-HELP_4CX_Desc_2             : 'QuickSend ',
-HELP_4CX_Desc_3             : 'Click the Chrome Extension Icon. ',
-HELP_4CX_Desc_4             : 'Click the "QuickSend" button. ',
-HELP_4CX_Desc_5             : 'Select the wallet you wish to send from. ',
-HELP_4CX_Desc_6             : 'Enter the address you would like to send to in the "To Address:" field. ',
-HELP_4CX_Desc_7             : 'Enter the amount you would like to send. You can also click the "Send Entire Balance" link if you would like the transfer the entire balance. ',
-HELP_4CX_Desc_8             : 'Click "Send Transaction". ',
-HELP_4CX_Desc_9             : 'Verify the address and the amount you are sending is correct. ',
-HELP_4CX_Desc_10            : 'Enter the password for that wallet. ',
-HELP_4CX_Desc_11            : 'Click "Send Transaction." ',
-HELP_4CX_Desc_12            : 'Using "Send Ether & Tokens" Page ',
+/* Translator 5             : TRADIKTÈ 5   : METE KOMANTÈ W’ YO LA.*/
 
-HELP_5_Title                : '5) How do I run MyEtherWallet.com offline/locally? ',
-HELP_5_Desc_1               : 'You can run MyEtherWallet.com on your computer instead of from the GitHub servers. You can generate a wallet completely offline and send transactions from the "Offline Transaction" page. ',
-HELP_5_Desc_7               : 'MyEtherWallet.com is now running entirely on your computer. ',
-HELP_5_Desc_8               : 'In case you are not familiar, you need to keep the entire folder in order to run the website, not just `index.html`. Don\'t touch or move anything around in the folder. If you are storing a backup of the MyEtherWallet repo for the future, we recommend just storing the ZIP so you can be sure the folder contents stay intact. ',
-HELP_5_Desc_9               : 'As we are constantly updating MyEtherWallet.com, we recommend you periodically update your saved version of the repo. ',
+/* ÈD – PA GEN ANYEN KI POU TRADWI APRE PWEN SA. SI W ‘ SANTI OU KA EDE PLIS , EDE NOU.*/
 
-HELP_5CX_Title              : '5) How can I install this extension from the repo instead of the Chrome Store? ',
-HELP_5CX_Desc_2             : 'Click on `chrome-extension-vX.X.X.X.zip` and unzip it. ',
-HELP_5CX_Desc_3             : 'Go to Google Chrome and find you settings (in the menu in the upper right). ',
-HELP_5CX_Desc_4             : 'Click "Extensions" on the left. ',
-HELP_5CX_Desc_5             : 'Check the "Developer Mode" button at the top of that page. ',
-HELP_5CX_Desc_6             : 'Click the "Load unpacked extension..." button. ',
-HELP_5CX_Desc_7             : 'Navigate to the now-unzipped folder that you downloaded earlier. Click "select". ',
-HELP_5CX_Desc_8             : 'The extension should now show up in your extensions and in your Chrome Extension bar. ',
+HELP_Warning                : 'SI W’ TE KREYE YON BOUS- OSWA-  OU TE PRAN REPO A ANVAN ** 31 DESANM 2015**, TANPRI VERIFYE BOUS OU YO /  AL PRAN YON LÒT VÈSYON REPO A ANKÒ. PEZE LA POU W’ KA JWENN PLIS DETAY. ',
 
-HELP_7_Title                : '7) How do I send tokens & add custom tokens? ',
-HELP_7_Desc_0               : '[Ethplorer.io](https://ethplorer.io/) is a great way to explore tokens and find the decimals of a token. ',
-HELP_7_Desc_1               : 'Navigate to the "Send Ether & Tokens" page. ',
-HELP_7_Desc_2               : 'Unlock your wallet. ',
-HELP_7_Desc_3               : 'Enter the address you would like to send to in the "To Address:" field. ',
-HELP_7_Desc_4               : 'Enter the amount you would like to send. ',
-HELP_7_Desc_5               : 'Select which token you would like to send. ',
-HELP_7_Desc_6               : 'If you do not see the token listed ',
-HELP_7_Desc_7               : 'Click "Custom". ',
-HELP_7_Desc_8               : 'Enter the address, name, and decimals of the token. These are provided by the developers of the token and are also needed when you "Add a Watch Token" to Mist. ',
-HELP_7_Desc_9               : 'Click "Save". ',
-HELP_7_Desc_10              : 'You can now send that token as well as see it\'s balance in the sidebar. ',
-HELP_7_Desc_11              : 'Click "Generate Transaction". ',
-HELP_7_Desc_12              : 'A couple more fields will appear. This is your browser generating the transaction. ',
-HELP_7_Desc_13              : 'Click the blue "Send Transaction" button below that. ',
-HELP_7_Desc_14              : 'A pop-up will appear. Verify that the amount and the address you are sending to are correct. Then click "Yes, I am sure! Make transaction." button. ',
-HELP_7_Desc_15              : 'The transaction will be submitted. The TX Hash will display. You can click that TX Hash to see it on the blockchain. ',
+HELP_Desc                   : 'MANKE YON BAGAY ? SI W’ GEN LÒT KESYON ? [PALE AK NOU]( mailto:support@myetherwallet.com), N’AP REPONN OU EPI N’AP TOU METE PAJ LA A JOU POU L’ KA ITIL PI PLIS AK TOUT LÒT MOUN YO NAN LÒT JOU YO ! ',
 
-HELP_8_Title                : '8) What happens if your site goes down? ',
-HELP_8_Desc_1               : 'MyEtherWallet is not a web wallet. You don\'t have a login and nothing ever gets saved to our servers. It is simply an interface that allows you interact with the blockchain. ',
-HELP_8_Desc_2               : 'If MyEtherWallet.com goes down, you would have to find another way (like geth or Ethereum Wallet / Mist) to do what we are doing. But you wouldn\'t have to "get" your Ether out of MyEtherWallet because it\'s not in MyEtherWallet. It\'s in whatever wallet your generated via our site. ',
-HELP_8_Desc_3               : 'You can import your unencrypted private key and your Geth/Mist Format (encrypted) files directly into geth / Ethereum Wallet / Mist very easily now. See question #12 below. ',
-HELP_8_Desc_4               : 'In addition, the likelihood of us taking MyEtherWallet down is slim to none. It costs us almost nothing to maintain as we aren\'t storing any information. If we do take the domain down, it still is, and always will be, publicly available at [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages). You can download the ZIP there and run it locally. ',
+HELP_Remind_Title           : 'KÈK NAN SA POU SONJE YO: ',
 
-HELP_8CX_Title              : '8) What happens if MyEtherWallet CX disappears? ',
-HELP_8CX_Desc_1             : 'First, all data is saved on your computer, not our servers. I know it can be confusing, but when you look at the Chrome Extension, you are NOT looking at stuff saved on our servers somewhere - it\'s all saved on your own computer. ',
-HELP_8CX_Desc_2             : 'That said, it is **very important** that you back up all your information for any new wallets generated with MyEtherWallet CX. That way if anything happens to MyEtherWallet CX or your computer, you still have all the information necessary to access your Ether. See the #2a for how to back up your wallets. ',
-HELP_8CX_Desc_3             : 'If for some reason MyEtherWallet CX disappears from the Chrome Store, you can find the source on Github and load it manually. See #5 above. ',
+HELP_Remind_Desc_1          : 'ETHEREUM, MYETHERWALLET.COM & MYETHER WALLET CX, EPI KÈK NAN BIBLIYOTÈK YO  JAVASCRIPT KI ANBA KE NOU KONN SÈVI AK YO KÒMANSE AP DEVLOPE.** NOU PASE YO GWO TÈS EPI ANPIL DIZÈNN AK MILYE BOUS SA YO TE KREYE AVÈK ANPIL SIKSÈ TOUT KOTE NAN MOND LA. KA TOUJOU GEN YON TI KRAS POSIBLITE KE YON BAGAY KA PASE KI KA PÈMÈT OU PÈDI ETH OU YO. PA ENVESTI PLIS PLIS KE SA W ‘ KA PRÈ POU W’ PÈDI EPI PRIDANS. NAN KA AKSIDAN, N’AP DEZOLE MEN ** NOU P’AP RESPONSAB POU ETHER  SA W’ PÈDI A**',
 
-HELP_9_Title                : '9) Is the "Send Ether & Tokens" page offline? ',
-HELP_9_Desc_1               : 'No. It needs the internet in order to get the current gas price, nonce of your account, and broadcast the transaction (aka "send"). However, it only sends the signed transaction. Your private key safely stays with you. We also now provide an "Offline Transaction" page so that you can ensure your private keys are on an offline/airgapped computer at all times. ',
+HELP_Remind_Desc_2          : 'MYETHERWALLET.COM & MYETHERWALLET CX YO PA "BOUS WEB". OU PA KREYE YON KONT , OU PA BA NOU ETHER W’ YO TANKOU DEPO. OKENN DONE PA SÒTI NAN KOMPITÈ W’ OSWA NAVIGATÈ W’ LA. N’AP FASILITE W’ POU W KREYASYON AN. KIJAN POU KENBE  L’ EPI ANTRE NAN ENFÒMASYON W’ YO AK KONTAK OU MENM AK BLOCKCHAIN NAN. ',  
 
-HELP_10_Title               : '10) How do I make an offline transaction? ',
-HELP_10_Desc_1              : 'Navigate to the "Offline Transaction" page via your online computer. ',
-HELP_10_Desc_2              : 'Enter the "From Address". Please note, this is the address you are sending FROM, not TO. This generates the nonce and gas price. ',
-HELP_10_Desc_3              : 'Move to your offline computer. Enter the "TO ADDRESS" and the "AMOUNT" you wish to send. ',
-HELP_10_Desc_4              : 'Enter the "GAS PRICE" as it was displayed to you on your online computer in step #1. ',
-HELP_10_Desc_5              : 'Enter the "NONCE" as it was displayed to you on your online computer in step #1. ',
-HELP_10_Desc_6              : 'The "GAS LIMIT" has a default value of 21000. This will cover a standard transaction. If you are sending to a contract or are including additional data with your transaction, you will need to increase the gas limit. Any excess gas will be returned to you. ',
-HELP_10_Desc_7              : 'If you wish, enter some data. If you enter data, you will need to include more than the 21000 default gas limit. All data is in HEX format. ',
-HELP_10_Desc_8              : 'Select your wallet file -or- your private key and unlock your wallet. ',
-HELP_10_Desc_9              : 'Press the "GENERATE SIGNED TRANSACTION" button. ',
-HELP_10_Desc_10             : 'The data field below this button will populate with your signed transaction. Copy this and move it back to your online computer. ',
-HELP_10_Desc_11             : 'On your online computer, paste the signed transaction into the text field in step #3 and click send. This will broadcast your transaction. ',
+HELP_Remind_Desc_3          : 'SI W’ PA BYEN KENBE KLE SEKRÈ W’ LA EPI KÒD SEKRÈ W ‘, PA GEN OKENN LÒT MWAYEN OU KA ANTRE NAN BOUS OU A ANKÒ AK JWENN PWOVIZYON  KI LADAN L’ YO. SERE YO NAN PLIZYÈ KOTE EPI SE PA SELMAN SOU KOMPITÈ W LA! ',
 
-HELP_12_Title               : '12) How do I import a wallet created with MyEtherWallet into geth / Ethereum Wallet / Mist? ',
-HELP_12_Desc_1              : 'Using an Geth/Mist JSON file from MyEtherWallet v2+.... ',
-HELP_12_Desc_2              : 'Go to the "View Wallet Info" page. ',
-HELP_12_Desc_3              : 'Unlock your wallet using your **encrypted** private key or JSON file. ',
-HELP_12_Desc_4              : 'Go to the "My Wallets" page. ',
-HELP_12_Desc_5              : 'Select the wallet you want to import into Mist, click the "View" icon, enter your password, and access your wallet. ',
-HELP_12_Desc_6              : 'Find the "Download JSON file - Geth/Mist Format (encrypted)" section. Press the "Download" button below that. You now have your keystore file. ',
-HELP_12_Desc_7              : 'Open the Ethereum Wallet application. ',
-HELP_12_Desc_8              : 'In the menu bar, go "Accounts" -> "Backup" -> "Accounts" ',
-HELP_12_Desc_9              : 'This will open your keystore folder. Copy the file you just downloaded (`UTC--2016-04-14......../`) into that keystore folder. ',
-HELP_12_Desc_10             : 'Your account should show up immediately under "Accounts." ',
-HELP_12_Desc_11             : 'Using your unencrypted private key... ',
-HELP_12_Desc_12             : 'If you do not already have your unencrypted private key, navigate to the "View Wallet Details" page. ',
-HELP_12_Desc_13             : 'Select your wallet file -or- enter/paste your private key to unlock your wallet. ',
-HELP_12_Desc_14             : 'Copy Your Private Key (unencrypted). ',
-HELP_12_Desc_15             : 'If you are on a Mac ',
-HELP_12_Desc_15b            : 'If you are on a PC ',
-HELP_12_Desc_16             : 'Open Text Edit and paste this private key. ',
-HELP_12_Desc_17             : 'Go to the menu bar and click "Format" -> "Make Plain Text". ',
-HELP_12_Desc_18             : 'Save this file to your `desktop/` as `nothing_special_delete_me.txt`. Make sure it says "UTF-8" and "If no extension is provided use .txt" in the save dialog. ',
-HELP_12_Desc_19             : 'Open terminal and run the following command: `geth account import ~/Desktop/nothing_special_delete_me.txt` ',
-HELP_12_Desc_20             : 'This will prompt you to make a new password. This is the password you will use in geth / Ethereum Wallet / Mist whenever you send a transaction, so don\'t forget it. ',
-HELP_12_Desc_21             : 'After successful import, delete `nothing_special_delete_me.txt` ',
-HELP_12_Desc_22             : 'The next time you open the Ethereum Wallet application, your account will be listed under "Accounts". ',
-HELP_12_Desc_23             : 'Open Notepad & paste the private key ',
-HELP_12_Desc_24             : 'Save the file as `nothing_special_delete_me.txt` at `C:` ',
-HELP_12_Desc_25             : 'Run the command, `geth account import C:\\nothing_special_delete_me.txt` ',
-HELP_12_Desc_26             : 'This will prompt you to make a new password. This is the password you will use in geth / Ethereum Wallet / Mist whenever you send a transaction, so don\'t forget it. ',
-HELP_12_Desc_27             : 'After successful import, delete `nothing_special_delete_me.txt` ',
-HELP_12_Desc_28             : 'The next time you open the Ethereum Wallet application, your account will be listed under "Accounts". ',
+HELP_0_Title                : '0) MWEN FENK VINI. KISA POU M’ FÈ? ',
 
-HELP_13_Title               : '13) What does "Insufficient funds. Account you try to send transaction from does not have enough funds. Required XXXXXXXXXXXXXXXXXXX and got: XXXXXXXXXXXXXXXX." Mean? ',
-HELP_13_Desc_1              : 'This means you do not have enough Ether in your account to cover the cost of gas. Each transaction (including token and contract transactions) require gas and that gas is paid in Ether. The number displayed is the amount required to cover the cost of the transaction in Wei. Take that number, divide by `1000000000000000000`, and subtract the amount of Ether you were trying to send (if you were attempting to send Ether). This will give you the amount of Ether you need to send to that account to make the transaction. ',
+HELP_0_Desc_1               : 'MYETHERWALLET BA W’ MWAYEN POU W’ KREYE PLIZYÈ LÒT BOUS POU W’ KACHE ETHER OU A OU MENM EPI SE PA SOU YON ** CHANJ** PWOSESIS SA KA FÈT SOU YON KOMPITÈ, SE PA SOU SÈVÈ NOU YO. LÈ W’AP KREYE YON LÒT BOUS ** SE RESPONSABLITE W’ POU W’ BYEN KENBE L’ AN SEKIRITE**',
 
-HELP_14_Title               : '14) Some sites randomize (seed) the private key generation via mouse movements. MyEtherWallet.com doesn\'t do this. Is the random number generation for MyEtherWallet safe? ',
-HELP_14_Desc_1              : 'While the mouse moving thing is clever and we understand why people like it, the reality is window.crypto ensures more entropy than your mouse movements. The mouse movements aren\'t unsafe, it\'s just that we (and tons of other crypto experiments) believe in window.crypto. In addition, MyEtherWallet.com can be used on touch devices. Here\'s a [conversation between an angry redditor and Vitalik Buterin regarding mouse movements v. window.crypto](https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm) and here is the [the window.crypto w3 spec](https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto). ',
+HELP_0_Desc_2               : 'KREYE YON NOUVO BOUS. ',
 
-HELP_15_Title               : '15) Why hasn\'t the account I just created show up in the blockchain explorer? (ie: etherchain, etherscan) ',
-HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Ether to it. ',
+HELP_0_Desc_3               : 'ANREJISTRE BOUS LA. ',
 
-HELP_16_Title               : '16) How do I check the balance of my account? ',
-HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](http://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](http://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) looks like on etherscan.io ',
+HELP_0_Desc_4               : 'VERIFYE POU W’ WÈ SI W’ GEN AKSÈ POU W’ ANTRE NAN LÒT BOUS SA AK  SI W’ BYEN SOVE TOUT BON ENFÒMASYON NESESÈ YO. ',
 
-HELP_17_Title               : '17) Why isn\'t my balance showing up when I unlock my wallet? ',
-HELP_17_Desc_1              : ' This is most likely due to the fact that you are behind a firewall. The API that we use to get the balance and convert said balance is often blocked by firewalls for whatever reason. You will still be able to send transactions, you just need to use a different method to see said balance, like etherscan.io ',
+HELP_0_Desc_5               : 'VOYE ETHER A NAN LÒT BOUS SA. ',
 
-HELP_18_Title               : '18) Where is my geth wallet file? ',
+HELP_1_Title                : '1) KÒMAN POU M’ KREYE  YON LÒT BOUS ? ',  
 
-HELP_19_Title               : '19) Where is my Mist wallet file? ',
-HELP_19_Desc_1              : 'Mist files are typically found in the file locations above, but it\'s much easier to open Mist, select "Accounts" in the top bar, select "Backup", and select "Accounts". This will open the folder where your files are stored. ',
+HELP_1_Desc_1               : 'ALE NAN PAJ "KREYASYON YON BOUS. ',
 
-HELP_20_Title               : '20) Where is my pre-sale wallet file? ',
-HELP_20_Desc_1              : 'Wherever you saved it. ;) It also was emailed to you, so check there. Look for the file called `"ethereum_wallet_backup.json"` and select that file. This wallet file will be encrypted with a password that you created during the purchase of the pre-sale. ',
+HELP_1_Desc_2               : 'ALE NAN PAJ "METE YON BOUS"  EPI CHWAZI  "KREYE YON LÒT BOUS"
 
-HELP_21_Title               : '21) Couldn\'t everybody put in random private keys, look for a balance, and send to their own address? ',
-HELP_21_Desc_1              : 'Short version: yes, but finding an account with a balance would take longer than the universe...so...no. ',
-HELP_21_Desc_2              : 'Long ELI5 Version: So Ethereum is based on [Public Key Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography), specifically [Elliptic curve cryptography](https://eprint.iacr.org/2013/734.pdf) which is very widely used, not just in Ethereum. Most servers are protected via ECC. Bitcoin uses the same, as well as SSH and TLS and a lot of other stuff. The Ethereum keys specifically are 256-bit keys, which are stronger than 128-bit and 192-bit, which are also widely used and still considered secure by experts. ',
-HELP_21_Desc_3              : 'In this you have a private key and a public key. The private key can derive the public key, but the public key cannot be turned back into the private key. The fact that the internet and the world’s secrets are using this cryptography means that if there is a way to go from public key to private key, your lost ether is the least of everyone’s problems. ',
-HELP_21_Desc_4              : 'Now, that said, YES if someone else has your private key then they can indeed send ether from your account. Just like if someone has your password to your email, they can read and send your email, or the password to your bank account, they could make transfers. You could download the Keystore version of your private key which is the private key that is encrypted with a password. This is like having a password that is also protected by another password. ',
-HELP_21_Desc_5              : 'And YES, in theory you could just type in a string of 64 hexadecimal characters until you got one that matched. In fact, smart people could write a program to very quickly check random private keys. This is known as "brute-forcing" or "mining" private keys. People have thought about this long and hard. With a few very high end servers, they may be able to check 1M+ keys / second. However, even checking that many per second would not yield access to make the cost of running those servers even close to worthwhile - it is more likely you, and your great-grandchildren, will die before getting a match. ',
-HELP_21_Desc_6              : 'If you know anything about Bitcoin, [this will put it in perspective:](http://bitcoin.stackexchange.com/questions/32331/two-people-with-same-public-address-how-will-people-network-know-how-to-deliver) *To illustrate how unlikely this is: suppose every satoshi of every bitcoin ever to be generated was sent to its own unique private keys. The probability that among those keys there could be two that would correspond to the same address is roughly one in 100 quintillion. ',
-HELP_21_Desc_7              : '[If you want something a bit more technical:](http://security.stackexchange.com/questions/25375/why-not-use-larger-cipher-keys/25392#25392) *These numbers have nothing to do with the technology of the devices; they are the maximums that thermodynamics will allow. And they strongly imply that brute-force attacks against 256-bit keys will be infeasible until computers are built from something other than matter and occupy something other than space. ',
-HELP_21_Desc_8              : 'Of course, this all assumes that keys are generated in a truly random way & with sufficient entropy. The keys generated here meet that criteria, as do Jaxx and Mist/geth. The Ethereum wallets are all pretty good. Keys generated by brainwallets do not, as a person\'s brain is not capable of creating a truly random seed. There have been a number of other issues regarding lack of entropy or seeds not being generated in a truly random way in Bitcoin-land, but that\'s a separate issue that can wait for another day. ',
+HELP_1_Desc_3               : 'ANTRE YON GWO KÒD SEKRÈ. SI W’ PANSE W’ KA BLIYE L’, SERE L’ YON BON KOTE. OU PRAL GEN BEZWEN KÒD SEKRÈ SA POU W’ VOYE TRANSFÈ YO. ',
 
-HELP_SecCX_Title            : 'Security - MyEtherWallet CX ',
-HELP_SecCX_Desc_1           : 'Where is this extension saving my information? ',
-HELP_SecCX_Desc_2           : 'The information you store in this Chrome Extension is saved via [chrome.storage](http://chrome.storage/). - this is the same place your passwords are saved when you save your password in Chrome. ',
-HELP_SecCX_Desc_3           : 'What information is saved? ',
-HELP_SecCX_Desc_4           : 'The address, nickname, private key is stored in chrome.storage. The private key is encrypted using the password you set when you added the wallet. The nickname and wallet address is not encrypted. ',
-HELP_SecCX_Desc_5           : 'Why aren\'t the nickname and wallet address encrypted? ',
-HELP_SecCX_Desc_6           : 'If we were to encrypt these items, you would need to enter a password each time you wanted to view your account balance or view the nicknames. If this concerns you, we recommend you use MyEtherWallet.com instead of this Chrome Extension. ',
+HELP_1_Desc_4               : 'PEZE SOU "KREYE". ',
 
-HELP_Sec_Title              : 'Security ',
-HELP_Sec_Desc_1             : 'If one of your first questions is "Why should I trust these people?", that is a good thing. Hopefully the following will help ease your fears. ',
-HELP_Sec_Desc_2             : 'We\'ve been up and running since August 2015. If you search for ["myetherwallet" on reddit](https://www.reddit.com/search?q=myetherwallet), you can see numerous people who use us with great success. ',
-HELP_Sec_Desc_3             : 'We aren\'t going to take your money or steal your private key(s). There is no malicious code on this site. In fact the "GENERATE WALLET" pages are completely client-side. That means that all the code is executed on ** your computer** and it is never saved and transmitted anywhere. ',
-HELP_Sec_Desc_4             : 'Check the URL -- This site is being served through GitHub and you can see the source code here: [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) to [https://www.myetherwallet.com](https://www.myetherwallet.com). ',
-HELP_Sec_Desc_5             : 'For generating wallets, you can download the [source code and run it locally](https://github.com/kvhnuke/etherwallet/releases/latest). See #5 above. ',
-HELP_Sec_Desc_6             : 'Generate a test wallet and check and see what network activity is happening. The easiest way for you to do this is to right click on the page and click "inspect element". Go to the "Network" tab. Generate a test wallet. You will see there is no network activity. You may see something happening that looks like data:image/gif and data:image/png. Those are the QR codes being generated...on your computer...by your computer. No bytes were transferred. ',
-HELP_Sec_Desc_8             : 'If you do not feel comfortable using this tool, then by all means, do not use it. We created this tool as a helpful way for people to generate wallets and make transactions without needing to dive into command line or run a full node. Again, feel free to reach out if you have concerns and we will respond as quickly as possible. Thanks! ',
+HELP_1_Desc_5               : 'POU KOUNYE A BOUS OU A KREYE. ',
 
-HELP_FAQ_Title              : 'More Helpful Answers to Frequent Questions ',
-HELP_Contact_Title          : 'Ways to Get in Touch '
+HELP_2a_Title               : '2a) KÒMAN POU M’ ANREJISTRE BOUS MWEN AN ? ',
+
+HELP_2a_Desc_1              : 'OU DWE TOUJOU ANREJISTRE BOUS OU A NAN PLIZYÈ KOTE, TANKOU SOU YON USB OSWA YON FÈY PAPYE. ',
+
+HELP_2a_Desc_2              : 'ANREJISTRE ADRÈS LA, OU KAPAB GENYEN L’ POU OU SÈL OSWA PATAJE L’ AVÈK LÒT MOUN, NAN FASON TOUT MOUN KAPAB VOYE ETHER BA W’. ',
+
+HELP_2a_Desc_3              : 'ANREJISTRE KLE SEKRÈ W’ NAN PLIZYÈ FASON. PA PATAJE L’ AK OKENN MOUN. KLE SEKRÈ LA NESESÈ POU W’ ANTRE  NAN ETHER W’ LA. POU W’ VOYE L !’ GEN 3 DIFERAN KLE SEKRÈ  KI EGZISTE: ',  
+
+HELP_2a_Desc_4              : 'METE ADRÈS OU A, NAN BAGAY YO OU METE KLE SEKRÈ W’ LA AK VÈSYON PDF POU BOUS PAPYE W’ LA NAN YON DOSYE. KENBE L’ SOU KOMPITÈW’ LA EPI YON KLE USB. ',
+
+HELP_2a_Desc_5              : 'FÈ SÒTI BOUS OU A SI W’ GEN APARÈY LA. SI SE PA SA, EKRI KLE SEKRÈ W’ AK ADRÈS OU A SOU YON FÈY PAPYE. KACHE L’ YON BON KOTE, APRE SOU KOMPITÈ W’ LA EPI  KLE USB LA. ',
+
+HELP_2a_Desc_6              : 'METE NAN LESPRI W’ POU W’ PWOTEJE TÈT OU POU W’ PA PÈDI KLE A EPI KÒD SEKRÈ A NAN KA OU TA PÈDI DISKEDI W’ LA, KLE W’ LA OSWA FÈY PAPYE A. OU DWE TOU PWOTEJE W’ KONT TOUT GWO KATASTWÒF KI KA FÈ ENPAK SOU YON ZÒN GEOGRAFIK (TANKOU YON GWO DIFE OSWA YON INONDASYON) . ',
+
+HELP_2b_Title               : '2b) KÒMAN POU M’ JERE AK TOUT SEKIRITE YON MAGAZEN SAN SIYAL AVÈK MYETHERWALLET? ',
+
+HELP_2b_Desc_1              : 'ALE NAN GITHUB NOU AN : [https://github.com/kvhnuke/etherwallet/releases/latest](https://github.com/kvhnuke/etherwallet/releases/latest). ',  
+
+HELP_2b_Desc_2              : 'PEZE SOU DIST-VX.X.X.X.ZIP` ',
+
+HELP_2b_Desc_3              : 'METE ZIP LASOU YON KOMPITÈ SAN SIYAL. ',
+
+HELP_2b_Desc_4              : 'DEZIPE L’ PEZE 2 FWA SOU INDEX.HTML`. '
+
+HELP_2b_Desc_5              : ' YON BOUS AVÈK YON GWO KÒD SEKRÈ. ',
+
+HELP_2b_Desc_6              : 'KENBE  ADRÈS LA. KENBE BAGAY YO OU METE KLE SEKRÈ A. KENBE KÒD SEKRÈ A SI W’ PA TA VLE  TOUJOU AP SONJE L’. ',
+
+HELP_2b_Desc_7              : 'BYEN SERE PAPYE YO EPI/ OSWA KLE USB  SA YO NAN YON KOTE BYEN LWEN. ', 
+
+HELP_2b_Desc_8              : 'ALE NAN PAJ  "FÈ PARÈT YON BOUS" EPI ANTRE  KLE SEKRÈ W’ LA AK KÒD SEKRÈ W’ LA POU W’ GEN ASIRANS KE YO VALAB EPI POU KA ANTRE NAN BOUS OU A. VERIFYE KE ADRÈS OU TE EKRI A SE MENM BAGAY LA. ',
+
+HELP_3_Title                : '3) KÒMAN POU M’ VERIFYE KE M’ ANTRE NAN LÒT BOUS MWEN AN ? ',
+
+HELP_3_Desc_1               : '** ANVAN W’ VOYE ETHER NAN BOUS OU A** OU DWE GEN ASIRANS KE W’ ANTRE. ',
+
+HELP_3_Desc_2               : 'NAVIGE  AL NAN PAJ "FÈ PARÈT YON BOUS". ',
+
+HELP_3_Desc_3               : 'NAVIGE AL NAN PAJ  " FÈ PARÈT YON BOUS"  MYETHERWALLET.COM LA. ',
+
+HELP_3_Desc_4               : 'CHWAZI PAJ BOUS OU A- OSWA - KLE SEKRÈ W’ LA EPI OUVRI BOUS OU A. ',
+
+HELP_3_Desc_5               : 'SI BOUS OU A GEN KÒD , YON ZÒN KI GEN EKRITI AP PARÈT POU KONT LI. ANTRE KÒD SEKRÈ A. ', 
+
+HELP_3_Desc_6               : 'PEZE BOUTON "OUVRI BOUS OU A". ',
+
+HELP_3_Desc_7               : 'ENFÒMASYON SOU BOUS OU YO DWE PARÈT . JWENN ADRÈS  KONT OU A KOTE YON PYON KI GEN FÒM YON SÈK EPI KI GEN KOULÈ. SA REPREZANTE ADRÈS OU A JAN W’ WÈ L’ LA. ASIRE W’ KE ADRÈS SA SE SA W’ TE KENBE NAN DOKIMAN KI EKRI W’ LA EPI LI NAN BOUS PAPYE W’ LA TOU. ',
+
+HELP_3_Desc_8               : 'SI W’ VLE GEN YON GWO KANTITTE ETHER, NOU MANDE W’ POU W’ KÒMANSE VOYE YON TI KANTITE KÒB KI AP SÒTI NAN BOUS OU FENK GENYEN AN ANAVN W’ METE YON GWO KANTITE KÒB. VOYE 0,001 ETHER AL NAN BOUS OU FENK GENYEN AN, ANTRE LADAN L’ EPI VOYE 0,001 ETHER SA YO AL NAN YON LÒT ADRÈS, EPI VERIFYE  KE TOUT BAGAY AP BYEN FONKSYONE SAN PWOBLÈM. ',  
+
+HELP_4_Title                : '4) KÒMAN POU M’ KA VOYE ETHER A SÒTI NAN BOUS SA AL NAN YON LÒT? ',
+
+HELP_4_Desc_1               : 'SI W’ VLE FÈ YON  GWO KANTITE  TRANSFÈ ETHER, OU DWE AVAN TOUT BAGAY ESEYE VOYE YON TI KANTITE KÒB AL NAN BOUS OU A POU GEN KONFYANS KE TOUT BAGAY AP BYEN FONKSYONE JAN SA DWE YE. ',
+
+HELP_4_Desc_2               : 'NAVIGE AL NAN PAJ  "VOYE ETHER YO EPI TOKENS YO" . ',
+
+HELP_4_Desc_3               : 'CHWAZI PAJ BOUS OU A- OSWA-  KLE SEKRÈ W’ LA EPI OUVRI BOUS OU A. ',
+
+HELP_4_Desc_4               : 'SI BOUS OU A GEN KÒD, YON ZÒN GEN EKRITI AP PARÈT  POU KONT LI. ANTRE KÒD SEKRÈ W LA. ',
+
+HELP_4_Desc_5               : 'PEZE SOU BOUTON "OUVRI BOUS OU A". ',
+
+HELP_4_Desc_6               : 'ANTRE ADRÈS MOUN K’AP RESEVWA L’ LA NAN ESPAS "ADRÈS KOTE L PRALE A". ',
+
+HELP_4_Desc_7               : 'ANTRE KANTITE W’ VLE  VOYE A. OU KAPAB ANKÒ PEZE SOU "VOYE TOUT KANTITE A" SI W’ VLE VOYE TOUT NÈT. ',
+
+HELP_4_Desc_9               : 'PEZE SOU  "KREYE TRANSFÈ A". ',
+
+HELP_4_Desc_10              : 'KÈK ESPAS ANPLIS AP PARÈT. NAVIGATÈ W’ LA AP KREYE TRANSFÈ A. ',
+
+HELP_4_Desc_11              : 'PEZE SOU BOUTON BLE A "VOYE TRANSFÈ A" KI ANBA A.
+
+HELP_4_Desc_12              : 'YON FENÈT POP-UP AP PARÈT. VERIFYE KE KANTITE A EPI ADRÈS LA KOTE W’AP VOYE L’ LA YO BON. APRE PEZE SOU "WI, MWEN KONFYAN ! FÈ TRANSFÈ A. ',
+
+HELP_4_Desc_13              : 'TRANSFÈ A PRAL FÈT. MOUN LI AN PRAL PARÈT. OU KAPAB PEZE SOU MOUN NAN POU W’ WÈ L’ SOU BLOCKCHAIN NAN. ',
+
+HELP_4CX_Title              : '4) KÒMAN POU M’ KA VOYE RTHER AVÈK MYETHERWALLET CX ? ',
+
+HELP_4CX_Desc_1             : 'ANVAN, OU DWE METE YON BOUS. SA FÈT, OU GENYEN DE FASON : FONKSYON  "VOYE RAPID"  NAN PYON AN NAN EXTENSION CHROME OSWA PAJ "VOYE ETHER YO EPI  TOKENS YO". ',
+
+HELP_4CX_Desc_2             : 'VOYE RAPID: ',
+
+HELP_4CX_Desc_3             : 'PEZE SOU PYON  EXTENSION CHROME. ',
+
+HELP_4CX_Desc_4             : 'PEZE SOU BOUTON "VOYE RAPID". ',
+
+HELP_4CX_Desc_5             : 'CHWAZI BOUS KOTE OU VLE VOYE A. ',
+
+HELP_4CX_Desc_6             : 'ANTRE ADRÈS LA OU VLE VOYE A NAN ESPAS  "ADRÈS KOTE L’ PRALE A :" . ',
+
+HELP_4CX_Desc_7             : 'ANTRE KANTITE OU VLE VOYE A. OU KAPAB ANKÒ PEZE SOU "VOYE TOUT KANTITE A" SI W’ VLE VOYE TOUT SA L’ GENYEN AN. ',
+
+HELP_4CX_Desc_8             : 'PEZE SOU "VOYE TRANSFÈ A". ',
+
+HELP_4CX_Desc_9             : 'VERIFYE KE ADRÈS LA EPI KANTITE W’AP VOYE A BON. ',
+
+HELP_4CX_Desc_10            : 'ANTRE KÒD SEKRÈ BOUS SA. ',
+
+HELP_4CX_Desc_11            : 'PEZE SOU "VOYE TRANSFÈ A." ',
+
+HELP_4CX_Desc_12            : 'AVÈK PAJ "VOYE ETHER YO EPI AK TOKENS YO" ',
+
+HELP_5_Title                : '5) KÒMAN M KA OUVRI MYETHERWALLET.COM SAN SIYAL/LOKAL ? ',
+
+HELP_5_Desc_1               : 'OU KAPAB OUVRI MYETHERWALLET.COM SOU KOMPITÈ W’ LA SAN W’ PA PASE NAN SÈVÈ GITHUB YO. OU KAPAB KREYE YON BOUS SAN OU PA BEZWEN GEN SIYAL EPI VOYE TRANSFÈ YO SÒTI NAN PAJ SA "TRANSFÈ SAN SIYAL". ',
+
+HELP_5_Desc_7               : 'TOUT MYETHERWALLET.COM LA VIRE SOU KOMPITÈ W’ LA KOUNYE A. ',
+
+HELP_5_Desc_8               : 'NAN KA OU PA TA ABITYE  AK SA. OU DWE KONSÈVE TOUT DOSYE A POU W’ VIRE SIT WEB LA EPI  PA SÈLMAN INDEX.HTML. PA MANYEN ANYEN, PA DEPLASE ANYEN NAN DOSYE A. SI W’ KENBE YON REPO NAN MAGAZEN MYETHERWALLET POU LÒT JOU YO, NOU MANDE W’ PA METE ZIP LA SÈLMAN NAN MAGAZENN AN POU W’ KA ASIRE W’ KE DOSYE A PA GEN TACH. ',
+
+HELP_5_Desc_9               : 'NOU TOUJOU AP AMELYORE MYETHERWALLET.COM, NOU MANDE W’ POU W’ TOUJOU METE A JOU VÈSYON W’ TE KENBE A. ',
+
+HELP_5CX_Title              : '5) KÒMAN POU M’ ENSTALE EXTENSION AN NAN REPO A KE  NAN CHROME STORE A ? ',
+
+HELP_5CX_Desc_2             : 'PEZE SOU CHROME-EXTENSION-VX.X.X.X.ZIP` ',
+
+HELP_5CX_Desc_3             : 'AL NAN GOOGLE CHROME EPI CHÈCHE PARAMÈT YO ( NAN MENI KI ANWO ADWAT LA). ',
+
+HELP_5CX_Desc_4             : 'PEZE SOU "EXTENSIONS" A GÒCH. ',
+
+HELP_5CX_Desc_5             : 'PEZE SOU KAZYE  "MÒD POU DEVLOPE" ANLÈ NAN PAJ SA. ',
+
+HELP_5CX_Desc_6             : 'PEZE SOU BOUTON "CHAJE EXTENSION AN PA METE L ANNDAN…". ',
+
+HELP_5CX_Desc_7             : 'NAVIGE AL NAN DOSYE  KE W’ TE PRAN AN EPI DEZIPE L’ ANVAN. PEZE SOU "CHWAZI". ',
+
+HELP_5CX_Desc_8             : 'EXTENSION AN DWE PARÈT KOUNYE A NAN EXTENSION W’ YO EPI NAN BA EXTENSION YO POU CHROME. ',
+
+HELP_7_Title                : '7)KÒMAN M’ KAPAB VOYE TOKENS YO EPI METE TOKENS SPESYAL YO ? ',
+
+HELP_7_Desc_0               : 'SE YON BON MWAYEN POU W’ AL GADE NAN TOKENS YO EPI JWENN JAN YO KONTE AN 10 LA NAN YON TOKEN. ',
+
+HELP_7_Desc_1               : 'NAVIGE AL NAN PAJ "VOYE TOKENS". ',
+
+HELP_7_Desc_2               : 'OUVRI BOUS OU A. ',
+
+HELP_7_Desc_3               : 'ANTRE ADRÈS  KOTE OU VLE VOYE L’ LA NAN ESPAS "ADRÈS KOTE L’ PRALE A". ',
+
+HELP_7_Desc_4               : 'ANTRE KANTITE OU VLE VOYE A. ',
+
+HELP_7_Desc_5               : 'CHWAZI TOKEN OU VLE VOYE A. ',
+
+HELP_7_Desc_6               : 'SI SA A PA NAN LIS LA: ',
+
+HELP_7_Desc_7               : 'PEZE SOU "SPESYAL ". ',
+
+HELP_7_Desc_8               : 'ANTRE  ADRÈS LA, NON AN EPI TOKEN YO KI KONTE AN 10 YO. ENFÒMASYON SA YO. SE MOUN KI FÈ TOKEN NAN KI BAY YO EPI YO ANKÒ NESESÈ LE W’AP FÈ "ADD A WATCH TOKEN" NAN MIST. ',
+
+HELP_7_Desc_9               : 'PEZE SOU "SOVE ". ',
+
+HELP_7_Desc_10              : 'OU KAPAB VOYE TOKENS SA YO KOUNYE A AK WÈ  TOU LAJAN  SOU KONT  OU A NAN ZÒN KI SOU KOTE A. ',
+
+HELP_7_Desc_11              : 'PEZE SOU  "KREYE TRANSFÈ A". ',
+
+HELP_7_Desc_12              : 'KÈK NAN ESPAS ANPLIS YO AP PARÈT : NAVIGATÈ W’ LA AP KREYE TRANSFÈ A. ',
+
+HELP_7_Desc_13              : 'PEZE SOU BOUTON BLE A "VOYE TRANSFÈ A" KI ANBA A. ',
+
+HELP_7_Desc_14              : 'YON FENÈT POP-UP AP PARÈT. VERIFYE KE KANTITE A EPI ADRÈS KOTE L’ PRALE A YO BON APRÈ PEZE SOU BOUTON "WI, MWEN KONFYAN ! FÈ TRANSFÈ A." ',
+
+HELP_7_Desc_15              : 'TRANSFÈ A FÈT EPI MOUN TRANSFÈ A PARÈT. OU KAPAB PEZE SOU LI POU W’ KA WÈ L’ NAN BLOCKCHAIN NAN. ',
+
+HELP_8_Title                : '8) SA K’AP PASE SI SIT OU A TONBE ? ',
+
+HELP_8_Desc_1               : 'MYETHERWALLET SE PA YON BOUS SOU WÈB LA. OU PA GEN KONEKSYON EPI ANYEN PA JANM ANREJISTRE SOU SÈVÈ NOU YO. SE JIS YON LÒT FAS KI PÈMET OU PALE AK BLOCKCHAIN LA. ',
+
+HELP_8_Desc_2               : 'SI MYETHERWALLET.COM TONBE, OU DWE JWENN YON LÒT MWAYEN ( TANKOU GETH OSWA ETHEREUM WALLET / MIST) POU FÈ MENM BAGAY LA. MEN OU PA GEN POU "REPRAN " ETHER W’ LA KI NAN MY ETHERWALLET PASKE L’ PA NAN MY ETHERWALLET. LI LAKAY OU. NAN BOUS SA W’ TE KREYE SOU SIT NOU AN. ',
+
+HELP_8_Desc_3               : 'OU KAPAB PRAN KLE SEKRÈ W’ LA FASIL KOUNYE A SAN KÒD EPI PAJ OU YO (KÒD) SOU FÒM GETH/MIST, DIREKTEMAN NAN GETH/ETHEREUM WALLET / MIST. GADE KESYON #12 LA KI ANBA A. ',
+
+HELP_8_Desc_4               : 'ANPLIS, FASON POU N’ TA KITE MYETHERWALLET TONBE LI PRE ZEWO.SA KOUTE NOU PRESKE ANYEN POU N’ KENBE L’ TANKOU JAN NOU PA KENBE OKENN ENFÒMASYON. SI DOMÈNN SA TA VIN PÈDI. LOJISYÈL LA AP TOUJOU DISPONIB POU PIBLIK LA SOU [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages). OU KAPAB PRAN ZIP LA  EPI SÈVI AK LI LOKAL. ',
+
+HELP_8CX_Title              : '8) SA KI AP PASE SI MYETHERWALLET CX DISPARÈT ? ',
+
+HELP_8CX_Desc_1             : 'ANVAN, KOMPITÈ W’ LA TE KENBE TOUT DONE YO EPI SE PAT SOU SÈVÈ NOU YO. SA KA PARÈT ETONAN MEN, LÈ W’AP GADE SOU EXTENSION CHROME LA, SA W’ WÈ A *PA LA* SOU SÈVÈ NOU YO. KOMPITTÈ W’ LA KENBE TOUT. ',
+
+HELP_8CX_Desc_2             : 'SA VLE DI, LI **ENPÒTAN ANPIL**  POU W’ TA KENBE TOUT DONE POU TOUT BOUS OU KREYE YO AK MYETHERWALLET CX. NAN FASON SA NENPÒT  SA KI TA RIVE MYETHERWALLET CX OSWA KOMPITÈ W’ LA, W’AP TOUJOU KONSÈVE TOUT ENFÒMASYON NESESÈ YO POU W’ KAANTRE NAN ETHER W’ YO. GADE #2 A POU W’ KENBE BOUS OU YO. ',
+
+HELP_8CX_Desc_3             : 'SI, POU NENPÒT REZON, MYETHERWALLET CX TA DISPARÈT NAN CHROME STORE A, OU KAPAB JWENN SOUS LA SOU GTITHUB EPI PRAN L’.  GADE #5 KI ANLÈ A. ',
+
+HELP_9_Title                : '9)?  PAJ "VOYE  RTHER YO AK TOKENS YO" ESKE L’ PA GEN SIYAL ? 
+
+HELP_9_Desc_1               : 'NON. LI BEZWEN INTÈNÈT POU L’ JWENN PRI GAZ KOUNYE A. NONCE KONT OU A EPI POU W’ VOYE TRANSFÈ A ( SA VLE DI "VOYE"). LI VOYE SÈLMAN TRANSFÈ KI SIYEN AN. KLE SEKRÈ W’ LA  RETE AN SEKIRITE LAKAY OU. NOU BAY ANKÒ KOUNYE AYON PAJ "TRANSFÈ SAN SIYAL" POU N’ PÈMET OU TOUJOU KENBE KLE SEKRÈ W’ LA SOU YON MACHIN SAN SIYAL. ',
+
+HELP_10_Title               : '10) KÒMAN POU M’ FÈ YON TRANSFÈ SAN SIYAL ? ',
+
+HELP_10_Desc_1              : 'ALE NAN PAJ "TRANSÈ SAN SIYAL" AVÈK KOMPITÈ W’ LA AK SIYAL. ',
+
+HELP_10_Desc_2              : 'ANTRE "ADRÈS KOTE L’ SÒTI A". ATANSYON, SE ADRÈS *KOTE L’ SÒTI A* SE PA ADRÈS *KOTE L’ PRALE A*. SA PRAL KREYE NONCE LA EPI PRI GAZ LA. ',
+
+HELP_10_Desc_3              : 'ALE SOU KOMPITÈ W’ LA KI PA GEN SIYAL. ANTRE "ADRÈS KOTE L’ PRALE A" EPI "KANTITE A" OU VLE VOYE A. ',
+
+HELP_10_Desc_4              : 'ANTRE "PRI GAZ LA" JAN W’ TE WÈ L PARÈT SOU KOMPITÈ A KI GEN SIYAL NAN PREMYE ETAP LA. ',
+
+HELP_10_Desc_5              : 'ANTRE "NONCE LA"  JAN W’ TE WÈL PARÈT SOU KOMPITÈ A KI GEN SIYAL NAN PREMYE ETAP LA. ',
+
+HELP_10_Desc_6              : ' " LIMIT GAZ LA"  GEN YON VALÈ 21000 NÒMAL. SA KOUVRI FRÈ YON TRANSFÈ NÒMAL. SI WA’ VOYE POU YON KONTRA OSWA SI W’AP PRAN DONE ANPLIS YO AVÈK TRANSFÈ W’ LA OU DWE METE SOU LIMIT GAZ LA. GAZ KI PA SÈVI A AP RETOUNEN VIN JWENN OU. ',
+
+HELP_10_Desc_7              : 'SI W’ VLE L’, ANTRE DONE YO, NAN KA SA, OU DWE METE PLIS KE LIMIT 21000 NÒMAL LA ? TOUT DONE YO SOU FÒM  16 NIMEWO.  ',  
+
+HELP_10_Desc_8              : 'CHWA PAJ BOUS OU A OSWA KLE SEKRÈ W’ LA AK OUVRI BOUS OU A. ',
+
+HELP_10_Desc_9              : 'PEZE BOUTON "KREYE TRANSFÈ SIYEN AN". ',
+
+HELP_10_Desc_10             : 'ESPAS DONE YO  ANBA BOUTON SA PLEN AVÈK TRANSFÈ SIYEN W’ LA. KOPYE L’ EPI TOUNEN ANKÒ AVÈK LI  SOU KOMPITÈ W’ LA KI GEN SIYAL. ',
+
+HELP_10_Desc_11             : 'SOU KOMPITÈ  AK SIYAL OU A,  KOLE TRANSFÈ KI SIYEN AN NAN ESPAS EKRI A EPI PEZE SOU "VOYE ETHER". SA A AP VOYE TRANSFÈ W’ LA. ',
+
+HELP_12_Title               : '12) KÒMAN POU M’ PRAN YON BOUS KI KREYE AK MYETHERWALLET NAN GETH/ ETHEREUM WALLET/ MIST ? ',
+
+HELP_12_Desc_1              : 'AVÈK YON PAJ GETH/MIST JSON NAN MYETHERWALLET V2+….',
+
+HELP_12_Desc_2              : 'ALE NAN PAJ  "GADE YON BOUS". ',
+
+HELP_12_Desc_3              : 'OUVRI BOUS OU A AVÈK KLE SEKRÈ W’ LA ** KI GEN KÒD** OSWA PAJ JSON W’ LA. ',
+
+HELP_12_Desc_4              : 'ALE NAN PAJ "BOUS MWEN YO". ',
+
+HELP_12_Desc_5              : 'CHWAZI BOUS OU VLE PRAN NAN MIST, PEZE SOU PYON  "VIEW " A ANTRE KÒD SEKRÈ W’ EPI ANTRE  NAN BOUS OU A. ',
+
+HELP_12_Desc_6              : 'ALE NA SEKSYON "PRAN PAJ JSON DOKIMAN- FÒM GETH/MIST( KI GEN KÒD) ‘’PEZE SOU BOUTON "PRAN L’" KI ANBA . OU GEN KOUNYE A PAJ  *KEYSTORE* W’ LA. ',
+
+HELP_12_Desc_7              : 'OUVRI APLIKASYON  ETHEREUM WALLET. ',
+
+HELP_12_Desc_8              : 'NA BA MENI AN, ALE NAN "ACCOUNTS"->’’BACKUP -> "ACCOUNTS" ',
+
+HELP_12_Desc_9              : 'SA OUVRI DOSYE KEYSTORES W’ LA. KOPYE L’ PAJ OU SÒT PRAN AN (UTC—2016-04-14)……../) NAN DOSYE SA. ',
+
+HELP_12_Desc_10             : ' KONT OU A DWE PARÈT  BYEN VIT ANBA "ACCOUNTS."
+
+HELP_12_Desc_11             : 'AVÈK KLE SEKRÈ W’ LA SAN KÒD… ',
+
+HELP_12_Desc_12             : 'SI W’ PAT GENTAN GEN KLE SEKRÈ W’LA SAN KÒD, ALE NAN PAJ  "FÈ PARÈT YON BOUS". ',
+
+HELP_12_Desc_13             : 'CHWAZI PAJ BOUS OU A-OSWA- ANTRE/KOLE KLE SEKRÈ W ‘ LA POU W ‘ OUVRI BOUS OU A. ',
+
+HELP_12_Desc_14             : 'KOPYE KLE SEKRÈ W’ LA (SAN KÒD). ',
+
+HELP_12_Desc_15             : 'SI W’ SOU YON MAC : ',
+
+HELP_12_Desc_15b            : ' SI W’ SOU YON PC ;  //LI FENK PARÈT, LI DEJA NAN LANG FRANSE, OU PA JWENN LI NAN DE.JS
+
+HELP_12_Desc_16             : 'OUVRI MODIFYE TÈKS APRE KOLE KLE SEKRÈ A. ',
+
+HELP_12_Desc_17             : 'NAN BA MENI AN, PEZE SOU "FÒM"  -> ‘’FÈ YON PLAN EKRI". ',
+
+HELP_12_Desc_18             : 'KENBE PAJ SA NAN DESKTOP OU A TANKOU NOTHIG_SPECIAL_DELETE_ME.TXT`. ASIRE W’ KE L’ DI "UTF-8" EPI "SI PA GEN EXTENSION KI BAY SÈVI AK TXT" NAN BWAT KI LA POU KENBE A. ',
+
+HELP_12_Desc_19             : 'OUVRI YON PÒ EPI KÒMANSE KOMAND KI                           VINI AN : `GETH ACCOUNT     IMPORT~/DESKTOP/NOTHING_SPECIAL_DELETE_ME.TXT` ', 
+
+HELP_12_Desc_20             : 'SA AP ENVITE CHWAZI YON NOUVO KÒD SEKRÈ. SE SA W’ PRAL ITILIZE NAN GETH / ETHEREUM WALLET / MIST  NAN CHAK MOMAN OU PRAL FÈ YON TRANSFÈ. KIDONK PA BLIYE L’.',
+
+HELP_12_Desc_21             : 'APRÈ SA W’ FIN PRAN AN FINI, EFASE NOTHING_SPECIAL_DELETE_ME.TXT` ',
+
+HELP_12_Desc_22             : 'LÈ W’AP OUVRI APLIKASYON ETHEREUM WALLET LA YON LÒT FWA ANKÒ, KONT OU A AP NAN YON LIS NAN "ACCOUNT". ',
+
+HELP_12_Desc_23             : ' OUVRI NOTEPAD EPI KOLE KLE SEKRÈ W’ LA. ',
+
+HELP_12_Desc_24             : 'KENBE PAJ LA TANKOU NOTHING_SPECIAL_DELETE_ME.TXT SOU `C:` ',   
+
+HELP_12_Desc_25             : 'KÒMANSE AK KÒMAND  `GETH ACCOUNT IMPORT C:// NOTHING_SPECIAL_DELETE_ME.TXT` ',
+
+HELP_12_Desc_26             : 'SA PRAL ENVITE W’ POU CHWAZI YON NOUVO KÒD SEKRÈ. SE AK SA W’ PRAL SÈVI NA GETH / ETHEREUM WALLET / MIST CHAK FWA OU PRAL VOYE YON TRANFÈ KIDONK PA BLIYE L’. ',
+
+HELP_12_Desc_27             : 'APRÈ SA W’ FIN PRAN AN FINI, EFASE NOTHING_SPECIAL_DELETE_ME.TXT` ',
+
+HELP_12_Desc_28             : 'LÈ W’AP OUVRI APLIKASYON ETHEREUM WALLET LA YON LÒT FWA ANKÒ, KONT OU A AP NAN YON LIS  NAN "ACCOUNTS". ',
+
+HELP_13_Title               : '13) SA SA VLE DI <<PWOVISYON YO PA SIFI>> KONT KOTE W’AP ESEYE VOYE TRANSFÈ A PA GEN ASE PWOVIZYON YO MANDE A : XXXXXXXXXXXXXXXXXXX, RESEVWA : XXXXXXXXXXXXXXXXXXX. » ? ',
+
+HELP_13_Desc_1              : 'SA VLE DI KE W’ PA GEN ASE ETHER SOU KONT OUAN POU W’ TA KOUVRI KÒB YO AN GAZ. CHAK TRANSFÈ ( MENM JAN POU TOKENS YO AK KONTRA YO) YO MANDE GAZ, EPI GAZ SA YO PEYE AK ETHER, NIMEWO YO KI PARÈT LA SE KANTITE SA YO MANDE POU W’ KOUVRI KÒB TRANSFÈ A AN WEI. PRAN NIMEWO SA YO DIVIZE YO PA ‘1000000000000000000` EPI SOUSTRÈ KANTITE KÒB LA  AN ETHER KE T’AP ESEYE VOYE A( SI W’ T’AP TANTE VOYE ETHER0). SA PRAL BA W’ KANTITE A AN ETHER KE W’ TE BEZWEN AN POU  KONT LA KA FÈ TRANSFÈ A. ',
+
+HELP_14_Title               : '14) KÈK SIT PA AZA ( KONN REKÒMANSE) KREYASYON KLE SEKRÈ A NAN MOUVMAN ANTRE SÒTI YO. KA SA PA POU MYETHERWALLET.COM. KANTITE KREYASYON ALE VINI POU MYETHERWALLET.COM ESKE L’ KONFYAN? ', 
+
+HELP_14_Desc_1              : 'MENM KE KANPE MOUVMAN SOURI A ANPIL MOUN JIJE LI GEN ATIRANS , EPI NOU TA KA KONPRANN REZON YO, REYALITE A SE WINDOW.CRYPTO A MEZIRE LIMIT DEZÒD ZIZTÈM PLIS KE MOUVMAN SOURI W’ LA. JAN W’ SÈVI AK MOUVMAN SA YO YO BON MEN NOU(ANSANM AK PLIZYÈ PWOJÈ KRYPTO YO) GEN ANPIL BON REZON POU N’ KWÈ NAN WINDOW.CRYPTO A. ANPLIS, MYETHERWALLET.COM KAPAB SÈVI SOU EKRAN OU KAPAB TOUCHE YO. MEN YON [KONVÈSASYON KI FÈT AK REDDITOR RAGEUR EPI VITALIK BUTERIN SOU MOUVMAN SOURI YO EPI WINDOW.CRYPTO] (https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm) EPI MEN  [SPESYAL W3 YO  WINDOW.CRYPTO AN](https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto). ',																		
+HELP_15_Title               : '15) POUKISA KONT SA M’ SOT KREYE A PA PARÈT NAN EKSPLORATÈ BLOCKCHAIN LAN ? (i.e. : etherchain, etherscan)	 ',														
+HELP_15_Desc_1              : 'KONT YO PA PARÈT NAN YON EKSPLORATÈ BLOCKCHAIN LÈ YON AKTIVITE FIN FÈT TANKOU, EGZANP, LE N’ TA GEN POU N’ FE YON TRANSFÈ ETHER . ',												
+HELP_16_Title               : '16) KÒMAN POU M’ VERIFYE LAJAN SOU KONT MWEN AN ? ',																	
+HELP_16_Desc_1              : 'OU KAPAB SÈVI AK YON EKSPLORATÈ BLOCKCHAIN TANKOU [etherscan.io](http://etherscan.io/). KOLE ADRÈS OU A NAN BA KOT E POU YO CHÈCHE A EPI SA AP È W’ JWENN LAJAN SOU KONT OU A EPI LIS TRANSFÈ W’ YO. EGZANP, MEN SA [KONT DON NOU YO MONTRE](http://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) SOU  etherscan.io ',									
+HELP_17_Title               : '17) POUKISA LAJAN SOU KONT MWEN AN PA PARÈT LÈ M’ OUVRI BOUS MWEN AN ? ',						
+HELP_17_Desc_1              : 'SA KI KA LAKÒZ SA SE PASKE W’ KA DÈYÈ YON FIREWALL. APLIKASYON NOU SÈVI AK LI POU N’ JWENN LAJAN SOU KONT OU A EPI KONVÈTI L’ LI SOUVAN BLOKE AK FIREWALL YO POU PLIZYÈ REZON. W’AP TOUJOU KAPAB  VOYE TRANSFÈ MEN FÒK OU FÈL NAN YON LÒT FASON POU W’ KA WÈ LAJAN SOU KONT OU A, TANKOU etherscan.io ',  						
+HELP_18_Title               : '18) KOTE PAJ BOUS GETH MWEN AN ? ',								
+HELP_19_Title               : '19) KOTE PAJ BOUS MIST MWEN AN ? ', 	 							
+HELP_19_Desc_1              : 'PAJ MIST YO OU TOUJOU JWENN YO NAN KOTE ANLÈ YO MEN LI PI FASIL POU W’ OUVRI MIST, CHWAZI "ACCOUNTS" NAN BA KI ANLÈ A EPI "BACUP" EPI  "ACCOUNTS" SA AP OUVRI DOSYE A KOTE PAJ OU YO KACHE A. ',					
+HELP_20_Title               : '20) KOTE PAJ BOUS MWEN AN *pre-sale* (ANVAN W’ VANN)? ', 
+
+HELP_20_Desc_1              : 'KOTEW’ TE METE L’ LA. ;) YO TE VOYE L’ BA OU TOU KIDONK AL GADE NAN EMAIL OU YO. CHÈCHE PAJ KI RELE `"ethereum_wallet_backup.json"` LA EPI CHWAZI PAJ LA. LI GEN KÒD YON KÒD SEKRÈ KE W’ TE KREYE PANDAN W’ T’AP ACHTE A NAN MOMAN AVAN W’ VANN NAN. ',															
+HELP_21_Title               : '21) NENPÒT MOUN PAKA PRAN YON KLE SEKRÈ PA AZA, CHÈCHE LAJAN SOU KONT YON MOUN EPI VOYE L’ NAN ADRÈS PA L’ ? ',
+
+HELP_21_Desc_1              : 'VÈSYON KI KOUT LA : WI, MEN JWENN YON KONT AK LAJAN SOU LI  SA AP PRAN PLIS TAN KE DEPI MOND NOU AN TE KREYE…. KIDONK……NON. ',									
+HELP_21_Desc_2              : 'VÈSYON LONG : ETHEREUM NAN GEN BAZ LI SOU[KRIPTOGRAFI KI GEN KLE PIBLIK ](https://en.wikipedia.org/wiki/Public-key_cryptography), POU PI KLÈ[cryptographie des courbes elliptiques (ECC)](https://eprint.iacr.org/2013/734.pdf) KE YO SOUVAN SÈVI AK LI, PA SÈLMAN NAN ETHEREUM. MAJORITE SÈVÈ YO PWOTEJE AK ECC YO. BITCOIN YO SÈVI AK YO TOU AK SSH, TLS EPI LÒT PWOTOKÒL YO. NAN KA SPESYAL ETHEREUM YO, KLE YO FÈ 256 BITS EPI YO PI FÒ KE SA KI NAN128 YO EPI 192 YO BITS YO, YO TOUJOU SÈVI AK YO EPI YO TOUJOU KONSIDERE YO KONFYAN POU EKSPÈ YO. ',					
+HELP_21_Desc_3              : 'OU GE YON KLE SEKRÈ EPI YON KLE PIBLIK. KLE SEKRÈ A KAPAB SÈVI POU CHANJE KLE PIBLIK OU A MEN LÒT FASON AN PA POSIB. MENM INTENET EPI TOUT MOND LAN AP SÈVI AK SYSTÈM  KRIPTOGRAFI A SA VLE DI KE, SI TA GEN YON MWAYEN POU CHANJE KLE SEKRÈ A AK KLE PIBLIK LA, RSIK KE ETHER W’ TA KAPAB JWENN NAN SE T’AP YOUN NAN TI KRAS PWOBLÈM YO POU TOUT MOND LAN. ',										
+HELP_21_Desc_4              : 'SA TA DI, WI : SI YON MOUN GEN KLE SEKRÈ W’ LA , LI KAPAB VOYE ETHER SÒTI NA N KONT OU A, AK ANKÒ SI YON MOUN GEN KÒD SEKRÈ ADRÈS EMAIL OU A, LI KAPAB LI MESSAGE YO OSWA VOYE MESAJ, OSWA SI SE KÒD SEKRÈ KONT BANK OU A, LI KAPAB VOYE NAN KONT PA L’ LA TOU OSWA YON LOT KONT. OU KAPAB PRAN VÈSYON KEYSTORE  KLE SEKRÈ W’ LA KI SE KLE SEKRÈ KI GEN KÒD AK YON KÒD SEKRÈ. SA AP SANBLE AP YON KÒD SEKRÈ KI PWOTEJE AK YON LÒT KÒD SEKRÈ.	',					
+HELP_21_Desc_5              : 'EPI WI, NAN TEYORI A, NOU KAPAB TAPE YON CHAIN 64 KARAKTÈ  KI GEN 16 NIMEWO JISKASKE W’ JWENN YOUN MENM JAN AK LI. LI POSIB TOU POU W’ EKRI YON PWOGRAM	KI KA VERIFYE BYEN RAPID KLE SEKRÈ ALE VINI YO. SE SA NOU RELE SÈVI "AK GWO FÒS" OSWA FOUYE KLE SEKRÈ YO. ANPIL MOUN AP APNSE AK SA ANPIL  DEPI BYEN LONTAN. KÈK GWO SÈVÈ KAPAB VERIFYE PLIS PASE YON MILYON KLE CHAK SEKOND.	EPOUTAN, MENM CHIF SA PA TA PRAL BAY AKSÈ AK YON KONT KI GEN PWOVISYON SOU LI POU TA KONN PRI YON BOUJI ;  LI PLIS PWOBAB KE OU MENM, PITIT OU YO EPI PITIT PITIT OU YO MOURI ANVAN W’ JWENN YOUN KI SANBLE L’. ',													
+HELP_21_Desc_6              : 'SI W’ TA KONN BITCOIN YON TI KRAS, [ SA AP FÈ W’ KONPRANN PI BYEN :] :](http://bitcoin.stackexchange.com/questions/32331/two-people-with-same-public-address-how-will-people-network-know-how-to-deliver)	* POU W’ EKRI SA KI TA KA PAKA PASE NAN TOUT SA. ANN SIPOZE KE CHAK SATOCHI NAN CHAK BITCOIN KI PA PRAL JANM FÈ OSWA ALE NAN SÈL MENM KLE SEKRÈ LI A. SA KI KA, NAN MITAN KLE SA YO, POU YO TA JWENN 2 KI GEN MENM ADRÈS LA LI TA KAPAB 1 SOU 100 KENTIYON. ',							
+HELP_21_Desc_7              : '[SI W’TA VLE AGIMAN KI POU TA EDE W’ KONPRANN PI FASIL :] (http://security.stackexchange.com/questions/25375/why-not-use-larger-cipher-keys/25392#25392) * NIMEWO SA YO PA GEN ANYEN POU WÈ AK TEKNOLOJI SYSTÈM YO ; SE PI GWO SA YO KE TÈMODINAMIK LA AKSEPTE.  EPI YO METE KLÈ YON ATAK AK GWO FÒS KONT KLE 256 BIT YO AP RETE ENPOSIB JISKASKE YO KONSTWI LÒT KOMPITÈ AVÈK LÒT BAGAY KE MATYÈ EPI POU YO TA OKIPE YON LÒT BAGAY KE ESPAS LA. ',															
+HELP_21_Desc_8              : 'SA W’ TA SIPOZE BYEN KONPRANN KE KLE YO KREYE YON FASON ALE VINI TOUT ANTYE AVÈK YON SISTÈM KI MEZIRE LIMIT DEZÒD LA. SE KA KLE SA YO KI KREYE LA, MENM JAN AK JAXX EPI MIST/GETH. BOUS ETHTEREUM YO TOUT BON POU KONSÈY SA. KLE KE SÈVO MOUN YO KREYE YO YO PA KONSA, PASKE KLE SA YO PA KAPAB SÒTI NAN YON BON NIMEWO ALE VINI. TE KONN GEN LÒT PWOBLÈM NAN SISTÈM KI MEZIRE LIMIT DEZÒD LA KI PA SIFI OSWA NAN NIMEWO ALE VINI YO NAN MOND BITCOIN NAN MEN KOUNYE A SE YON LÒT PWOBLÈM LI VIN YE KI KA TANN YON MOMAN. ',							
+HELP_SecCX_Title            : 'KLE – MYETHERWALLET CX ',								
+HELP_SecCX_Desc_1           : 'KIBÒ EXTENSION CHROME NAN KENBE ENFÒMASYON M’ YO ? ',									
+HELP_SecCX_Desc_2           : 'ENFÒMASYON YO KI NAN EXTENSION YO ANREJISTRE PA  [chrome.storage](http://chrome.storage/), SA VLE DI MENM KOTE AK KÒD SEKRÈ W’ YO NAN CHROME. ',	
+		
+HELP_SecCX_Desc_3           : 'KI ENFÒMASYON SA YO KI ANREJISTRE A? ',										
+HELP_SecCX_Desc_4           : 'ADRÈS LA, TI NON AN, KLE SEKRÈ A, YO KACHE NAN chrome.storage. KLE SEKRÈ A GEN KÒD AK KÒD SEKRÈ KI TE METE LÈ W’ T’AP KREYE BOUS LA. TI NON AN EPI ADRÈS BOUS LA YO PA GEN KÒD. ',																					
+HELP_SecCX_Desc_5           : 'POUKISA TI NON AN AK ADRÈS BOUS LA YO PA GEN KÒD ? ',																					
+HELP_SecCX_Desc_6           : 'SI NOU TA DWE METE KÒD NAN ENFÒMASYON YO, FÒK OU TA ANTRE YON KÒD SEKRÈ NAN CHAK MOMAN OU BEZWEN WÈ LAJAN SOU KONT OU OSWA LÒT TI NON YO. SI SA NWI W’,NOU MANDE W’ POU SÈVI AK MyEtherWallet.com KE EXTENSION CHROME SA. ',  								
+HELP_Sec_Title              : 'KLE ',
+
+HELP_Sec_Desc_1             : 'SI YOUN NAN PREMYE KESYON W’  OU POZE TÈT OU SE "POUKISA W’ DWE FÈ MOUN SA YO KONFYANS ? "  SE YON BON DEMACH. ESPERANS NOU SE SA KI AP VINI AN KI PRAL FÈ W PI BYEN KONPRANN. ',	
+
+						
+HELP_Sec_Desc_2             : 'NOU TE KÒMANSE NAN MWA DAWOU 2015. SI W’ AL CHÈCHE ["myetherwallet" SOU reddit](https://www.reddit.com/search?q=myetherwallet), OU KAPAB WÈ YON PAKÈT BANN MOUN K’AP SÈVI AK NOU SAN OKENN PWOBLÈM. ',		
+HELP_Sec_Desc_3             : 'NOU PA PRAL PRAN KÒB OU OSWA VÒLÈ KLE SEKRÈ W’ YO. PA GEN KÒD MALVEYAN SOU SIT LA. EPI, PAJ "KREYASYON BOUS YO" YO  TOUT ANTYE SE POU KLIYAN AN. SA VLE DI KE TOUT KÒD YO FÈT SOU **KOMPITÈ W’ LA** YO PA JANM SOVE EPI/OSWA ALE OKENN LÒT KOTE.	 ',								
+HELP_Sec_Desc_4             : 'VERIFYE URL LA – SIT SA SÈVI AK GITHUB EPI OU KAPAB WÈ KÒD SOUS LA LA : : [https://github.com/kvhnuke/etherwallet/tree/gh-pages](https://github.com/kvhnuke/etherwallet/tree/gh-pages) NAN  [https://www.myetherwallet.com](https://www.myetherwallet.com). ',
+
+HELP_Sec_Desc_5             : 'POU W’ KREYE BOUS YO, OU KAPAB PRAN [KÒD SOUS LA] (https://github.com/kvhnuke/etherwallet/releases/latest). GADE #5 KI ANLÈ A.  ',
+
+HELP_Sec_Desc_6             : 'KÒMANSE YON TÈS EPI VERIFYE JAN REZO AP FONKSYONE. FASON KI PI SENP LA SE YON KLIK DWAT SOU PAJ LA APRÈ "ENSPEKSYON".AL NAN KAZYE  "NETWORK" KREYE YON BOUS POU TÈS. OU PRAL WÈ REZO A P’AP FONKSYONE. OU KAPAB PRAL WÈ YON KÈK BAGAY AP FÈT KI SANBLE AK DATA :IMAGE/GIF EPI DATA :IMAGE/PNG SA YO SE QR KÒD YO KI KÒMANSE AP KREYE… SOU KOMPITÈ W’ LA. PA GEN OKENN TRANSFÈ OCTET KI TE FÈT. ',
+
+HELP_Sec_Desc_8             : 'SI ZOUTI SA PA FÈ W ‘ PLEZI, EBYEN PA SÈVI AK LI. NOU TE KREYE L’ POU L’ KA EDE TOUT MOUN  KREYE BOUS YO AK FÈ TRANSFÈ YO SAN YO PA BEZWEN AL PRAN LIY POU FÈ SA YO NI FÈ VIRE TOUNEN NAN YON NE ANTYE. YON LÒT FWA, PA EZITE FÈ N’ KONNEN SI W’ GEN DOUT EPI N’AP REPONN OU PI VIT KE POSIB. MÈSI ! ',
+
+HELP_FAQ_Title              : 'REPONS ANPLIS AK KESYON YO YOUJOU POZE YO',
+
+HELP_Contact_Title          : 'MWAYEN OU KA PALE AK NOU'
 };
 
 module.exports = ht;
