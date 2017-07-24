@@ -459,26 +459,26 @@ PARITY_InvalidGasLimit      : "Supplied gas is beyond limit.",
 /* Tranlsation Info */      : /*ENFÒMASYON SOU TRADIKSYON AN*/			
 translate_version           : '0.1 ',								
 Translator_Desc             : ' YON MÈSI POU TRADIKTÈ N’YO ', 				
-TranslatorName_1            :'[Nogo10](https://www.myetherwallet.com/?gaslimit=21000&to= 0x152e77CC3Dd8d86471ebEa8e93B9924A41e7055a&value=1.0#VOYE-TRANSFÈ A) · ',											
-TranslatorAddr_1            : ' 0x152e77CC3Dd8d86471ebEa8e93B9924A41e7055a ',\	
-TranslatorName_2            :  NON TRADIKTÈ_2  'JJCROISIERE · ',			
-TranslatorAddr_2            : TRADIKTÈ ADDR_2'',						
+TranslatorName_1            : '[Nogo10](https://www.myetherwallet.com/?gaslimit=21000&to= 0x152e77CC3Dd8d86471ebEa8e93B9924A41e7055a&value=1.0#VOYE-TRANSFÈ A) · ',											
+TranslatorAddr_1            : ' 0x152e77CC3Dd8d86471ebEa8e93B9924A41e7055a ',	
+TranslatorName_2            : 'NON TRADIKTÈ_2  JJCROISIERE · ',			
+TranslatorAddr_2            : 'TRADIKTÈ ADDR_2',						
 /* Translator 2                  : TRADIKTÈ 2'',	*/ 					
-TranslatorName_3            : NON TRADIKTÈ A  'JJCROISIERE ',
+TranslatorName_3            : 'NON TRADIKTÈ A  JJCROISIERE ',
 
-TranslatorAddr_3            : ' TRADIKTÈ ADDDR_3'',
+TranslatorAddr_3            : ' TRADIKTÈ ADDDR_3 ',
 
 /* Translator 3             :  TRADIKTÈ  3  : METE KÒMANTÈ YO LA.*/
 
-TranslatorName_4            : NON TRADIKTÈ_4 '',
+TranslatorName_4            : 'NON TRADIKTÈ_4 '',
 
-TranslatorAddr_4            :  TRADIKTÈADDR_4'',
+TranslatorAddr_4            : 'TRADIKTÈADDR_4'',
 
 /* Translator 4             :TRADIKTÈ 4  : METE KÒMANTÈ W’ YO LA.*/
 
-TranslatorName_5            :  NON TRADIKTÈ_5'',
+TranslatorName_5            : 'NON TRADIKTÈ_5'',
 
-TranslatorAddr_5            : TRADIKTÈADDR_5 '',
+TranslatorAddr_5            : 'TRADIKTÈADDR_5 ',
 
 /* Translator 5             : TRADIKTÈ 5   : METE KOMANTÈ W’ YO LA.*/
 
