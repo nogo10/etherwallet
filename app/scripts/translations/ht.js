@@ -1,10 +1,8 @@
-
+// Kreyol
 'use strict';
 var ht = function() {}
 ht.code = 'ht';
 ht.data = {
-
-HELP_2a_Title               : 'How do I save/backup my wallet? ',
 
 /* New Generics */
 x_CancelReplaceTx           : 'Cancel or Replace Transaction',
@@ -17,63 +15,62 @@ x_TXFee                     : 'TX Fee',
 x_TxHash                    : 'TX Hash',
 
 /* Check TX Status */
-NAV_CheckTxStatus           : 'Check TX Status',
-NAV_TxStatus                : 'TX Status',
-tx_Details                  : 'Transaction Details',
-tx_Summary                  : 'During times of high volume (like during ICOs) transactions can be pending for hours, if not days. This tool aims to give you the ability to find and "cancel" / replace these TXs. ** This is not typically something you can do. It should not be relied upon & will only work when the TX Pools are full. [Please, read about this tool here.](https://myetherwallet.groovehq.com/knowledge_base/topics/how-can-i-check-on-the-status-of-my-transaction-can-i-cancel-override-overwrite-replace-or-do-anything-once-a-transaction-has-been-sent)**',
-tx_notFound                 : 'Transaction Not Found',
-tx_notFound_1               : 'This TX cannot be found in the TX Pool of the node you are connected to.',
-tx_notFound_2               : 'If you just sent the transaction, please wait 15 seconds and press the "Check TX Status" button again. ',
-tx_notFound_3               : 'It could still be in the TX Pool of a different node, waiting to be mined.',
-tx_notFound_4               : 'Please use the dropdown in the top-right & select a different ETH node (e.g. `ETH (Etherscan.io)` or `ETH (Infura.io)` or `ETH (MyEtherWallet)`) and check again.',
-tx_foundInPending           : 'Pending Transaction Found',
-tx_foundInPending_1         : 'Your transaction was located in the TX Pool of the node you are connected to. ',
-tx_foundInPending_2         : 'It is currently pending (waiting to be mined). ',
-tx_foundInPending_3         : 'There is a chance you can "cancel" or replace this transaction. Unlock your wallet below.',
-tx_FoundOnChain             : 'Transaction Found',
-tx_FoundOnChain_1           : 'Your transaction was successfully mined and is on the blockchain.',
-tx_FoundOnChain_2           : '**If you see a red `( ! )`, a `BAD INSTRUCTION` or `OUT OF GAS` error message**, it means that the transaction was not successfully *sent*. You cannot cancel or replace this transaction. Instead, send a new transaction. If you received an "Out of Gas" error, you should double the gas limit you specified originally.',
-tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your ETH or Tokens are where you sent them. If you cannot see this ETH or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://myetherwallet.groovehq.com/knowledge_base/topics/i-have-a-question-but-its-not-about-myetherwallet-dot-com-what-do-i-do). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
+NAV_CheckTxStatus           : 'Vérifier statut TX',
+NAV_TxStatus                : 'Statut de la TX',
+tx_Details                  : 'Détails de transaction',
+tx_Summary                  : 'Pendant des périodes de volume important (comme pendant les ICOs) les transactions peuvent rester en attente des heures, voir des jours. Cet outil cherche à vous donner la possibilité de trouver et "annuler" / remplacer ces transactions. ** Ce n\'est pas quelque chose de possible normalement. Vous ne devriez pas vous y fier et cela ne marchera que lorsque les pools de transactions sont remplis. [Nous vous recommandons d\'en lire plus sur cet outil ici.](https://myetherwallet.groovehq.com/knowledge_base/topics/how-can-i-check-on-the-status-of-my-transaction-can-i-cancel-override-overwrite-replace-or-do-anything-once-a-transaction-has-been-sent)**',
+tx_notFound                 : 'Pas de transaction trouvée', //transaction not found
+tx_notFound_1               : 'Cette TX est introuvable dans le pool de TX du nœud auquel vous êtes connecté.',
+tx_notFound_2               : 'Si vous venez d\'envoyer la transaction, veuillez attendre 15 secondes et cliquez une nouvelle fois sur  le bouton "Vérifier statut TX". ',
+tx_notFound_3               : 'La transaction pourrait toujours être dans le pool de transactions d\'un nœud différent, en attente d\'être minée.',
+tx_notFound_4               : 'Veuillez utiliser le menu déroulant en haut à droite & sélectionner un nœud ETH différent (par ex. `ETH (Etherscan.io)` ou `ETH (Infura.io)` ou `ETH (MyEtherWallet)`) et revérifiez.',
+tx_foundInPending           : 'Transaction en attente trouvée',
+tx_foundInPending_1         : 'Cette TX a été identifiée dans le pool de TX du nœud auquel vous êtes connecté.',
+tx_foundInPending_2         : 'Elle est pour l\'instant en attente (en attente d\'être minée). ',
+tx_foundInPending_3         : 'Il existe une chance que vous puissiez "annuler" ou remplacer cette transaction. Déverouillez votre portefeuille ci-dessous.',
+tx_FoundOnChain             : 'Transaction trouvée',
+tx_FoundOnChain_1           : 'Votre transaction a été minée avec succès et se trouve sur la blockchain.',
+tx_FoundOnChain_2           : '**Si vous voyez un `( ! )` rouge, un message d\'erreur `BAD INSTRUCTION` ou `OUT OF GAS`**, cela signifie que votre transaction n\'a pas été *envoyée*. Vous ne pouvez pas annuler ou remplacer cette transaction. A la place, envoyez une nouvelle transaction. Si vous avez reçu une erreur de type "Out of Gas", vous devriez doubler la limite de gaz que vous aviez spécifiée.',
+tx_FoundOnChain_3           : '**Si vous ne voyez pas d\'erreur, votre transaction a été envoyée avec succès.** Vos ETH ou Tokens sont à l\'endroit où vous les avez envoyés. Si vous ne voyez pas ces ETH ou Tokens dans votre autre portefeuille ou compte de place d\'échange, et si cela fait plus de 24 heures, veuillez [contacter ce service](https://myetherwallet.groovehq.com/knowledge_base/topics/i-have-a-question-but-its-not-about-myetherwallet-dot-com-what-do-i-do). Envoyez-leur le *lien* vers votre transaction et demandez, poliment, d\'examiner votre situation.',
 
 /* Gen Wallet Updates */
-GEN_Help_1                  : 'Use your',
-GEN_Help_2                  : 'to access your account.',
-GEN_Help_3                  : 'Your device * is * your wallet.',
+GEN_Help_1                  : 'Utiliser votre',
+GEN_Help_2                  : 'pour accéder à votre compte.',
+GEN_Help_3                  : 'Votre périphérique * est * votre portefeuille.',
 GEN_Help_4                  : 'Guides & FAQ',
-GEN_Help_5                  : 'How to Create a Wallet',
-GEN_Help_6                  : 'Getting Started',
-GEN_Help_7                  : 'Keep it safe · Make a backup · Don\'t share it with anyone · Don\'t lose it · It cannot be recovered if you lose it.',
-GEN_Help_8                  : 'Not Downloading a File? ',
-GEN_Help_9                  : 'Try using Google Chrome ',
-GEN_Help_10                 : 'Right click & save file as. Filename: ',
-GEN_Help_11                 : 'Don\'t open this file on your computer ',
-GEN_Help_12                 : 'Use it to unlock your wallet via MyEtherWallet (or Mist, Geth, Parity and other wallet clients.) ',
-GEN_Help_13                 : 'How to Back Up Your Keystore File ',
-GEN_Help_14                 : 'What are these Different Formats? ',
-GEN_Help_15                 : 'Preventing loss &amp; theft of your funds.',
-GEN_Help_16                 : 'What are these Different Formats?',
-GEN_Help_17                 : 'Why Should I?',
-GEN_Help_18                 : 'To have a secondary backup.',
-GEN_Help_19                 : 'In case you ever forget your password.',
+GEN_Help_5                  : 'Comment créer un portefeuille',
+GEN_Help_6                  : 'Pour bien débuter', //Getting Started
+GEN_Help_7                  : 'Gardez-le en sécurité · Faites une sauvegarde · Ne le partagez pas avec qui que ce soit · Ne le perdez pas · Il ne peut pas être récupéré si vous le perdez.',
+GEN_Help_8                  : 'Pas de téléchargement? ',
+GEN_Help_9                  : 'Essayez Google Chrome ',
+GEN_Help_10                 : 'Clic droit & enregistrer sous. Nom de fichier: ',
+GEN_Help_11                 : 'N\'ouvrez pas ce fichier sur votre ordinateur ',
+GEN_Help_12                 : 'Utilisez-le pour déverouiller votre portefeuille avec MyEtherWallet (ou Mist, Geth, Parity et autres wallet clients.) ',
+GEN_Help_13                 : 'Comment sauvegarder votre fichier Keystore ',
+GEN_Help_14                 : 'Quels sont ces différents formats? ',
+GEN_Help_15                 : 'Eviter la perte &amp; ou le vol de vos biens.',
+GEN_Help_16                 : 'Quels sont ces différents formats?',
+GEN_Help_17                 : 'Pourquoi dois-je faire ça?',
+GEN_Help_18                 : 'Pour avoir une sauvegarde de secours.',
+GEN_Help_19                 : 'Au cas où vous oubliez votre mot de passe.',
 GEN_Help_20                 : 'Cold Storage',
-GET_ConfButton              : 'I understand. Continue.',
-GEN_Label_5                 : 'Save Your `Private Key`. ',
-GEN_Unlock                  : 'Unlock your wallet to see your address',
-GAS_PRICE_Desc              : 'Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `21 GWEI`.',
-GAS_LIMIT_Desc              : 'Gas limit is the amount of gas to send with your TX. `TX fee` = gas price * gas limit & is paid to miners for including your TX in a block. Increasing this number will not get your TX mined faster. Sending ETH = `21000`. Sending Tokens = ~`200000`.',
-NONCE_Desc                  : 'The nonce is the number of transactions sent from a given address. It ensures transactions are sent in order & not more than once.',
-TXFEE_Desc                  : 'The TX Fee is paid to miners for including your TX in a block. Is is the `gas limit` * `gas price`. [You can convert GWEI -> ETH here](https://www.myetherwallet.com/helpers.html)',
+GET_ConfButton              : 'Je comprends. Continuer.',
+GEN_Label_5                 : 'Sauvegardez votre `clé privée`. ',
+GEN_Unlock                  : 'Déverouillez votre portefeuille pour voir votre adresse.',
+GAS_PRICE_Desc              : 'Le prix du gaz est le montant que vous payez par unité de gaz. `frais de TX  = prix du gaz * limite en gaz` & est payé aux mineurs pour inclure votre transaction à un bloc. Prix de gaz plus haut = transaction plus rapide, mais plus coûteuse. Le prix par défaut est de `21 GWEI`.',
+GAS_LIMIT_Desc              : 'La limite en gaz est le montant de gaz à envoyer avec votre transaction. `frais de TX  = prix du gaz * limite en gaz` et est payé aux mineurs pour inclure votre transaction à un bloc. Augmenter ce nombre n\'exécutera pas votre transaction plus rapidement. Envoyer ETH = `21000`. Envoyer des Tokens = ~`200000`.',
+NONCE_Desc                  : 'Le nonce est le nombre de transactions envoyées depuis une adresse. Il fait en sorte que les transactions sont envoyées en ordre et pas plus d\'une fois.',
+TXFEE_Desc                  : 'Les frais de transaction sont payés aux mineurs pour inclure votre transaction dans un bloc. Cela représente le `gas limit` * le `gas price`. [Vous pouvez convertir GWEI -> ETH ici](https://www.myetherwallet.com/helpers.html)',
 
-
-
+	
 /* Navigation*/
-
 NAV_AddWallet               : 'METE YON BOUS. ',  
 NAV_BulkGenerate            : 'KREYE BOUS YO PA LO ',					
 NAV_Contact                 : 'KONTAK ', 
 NAV_Contracts               : 'KONTRA YO ',						
 NAV_DeployContract          : 'OUVRI YON KONTRA ', 
-NAV_ENS                     : 'ENS ',  							
+NAV_ENS                     : 'ENS ',  	
+NAV_GenerateWallet_alt      : 'Nouveau portefeuille ',
 NAV_GenerateWallet          : 'KREYE YON BOUS ', 
 NAV_Help                    : 'EDE ',									
 NAV_InteractContract        : 'PALE AVÈK KONTRA A ', 
@@ -98,7 +95,9 @@ x_Json                      : 'PAJ JSON (SAN-KÒD) ',
 x_JsonDesc                  : 'SE YON LÒT VÈSYON SAN KÒD SOU FÒM JSON POU KLE SEKRÈ W’LA. SA VLE DI KE W’ PA BEZWEN KÒD SEKRÈ W’ POU W’ SÈVI AK LI MEN NENPÒT MOUN KI JWENN JSON AN KAPAB ANTRE NAN BOUS OU A AK ETHER W’ YO SAN KÒD SEKRÈ ',						
 x_Keystore                  : 'PAJ KEYSTORE (UTC/ JSON DWE GEN KÒD) ',						
 x_Keystore2                 : 'PAJ KEYSTORE (UTC / JSON) ',												
-x_KeystoreDesc              : 'PAJ KEYSTORE SA SÈVI AK MENM  FÒM  MIST LA SÈVI A TOU, OU KAPAB PRAN L’ FASILMAN  PITA NAN LOGISYÈL YO. SE PAJ SA NOU MANDE W’ POU W’ PRAN AK KENBE L ',													
+x_KeystoreDesc              : 'PAJ KEYSTORE SA SÈVI AK MENM  FÒM  MIST LA SÈVI A TOU, OU KAPAB PRAN L’ FASILMAN  PITA NAN LOGISYÈL YO. SE PAJ SA NOU MANDE W’ POU W’ PRAN AK KENBE L ',
+x_Ledger                    : 'Ledger Wallet ',
+x_MetaMask                  : 'Metamask / Mist ',	
 x_Mnemonic                  : 'LÈT FRAZ KACHE.',							
 x_ParityPhrase              : 'FRAZ KI SANBLE ',									
 x_Password                  : 'KÒD SEKRÈ ',							
@@ -135,29 +134,13 @@ sidebar_TransHistory        : 'LIS TRANSFÈ YO ',
 sidebar_donation            : 'MYETHERWALLET  SE YON SÈVIS GRATIS EPI YON OPEN SOURCE KI RESPEKTE VI SEKRÈ W’ AK SEKIRITE W’. PLIS N’AP JWENN ANPIL DON, PLIS N’AP PASE ANPIL TAN POU N’ DEVLOPE LÒT FONKSYON YO, N’AP TANDE SA W’ MANDE  AK BA W’ SA W’ BEZWEN . NOU SE KÈK MOUN K’AP ESEYE CHANJE MOND LA. EDE NOU! ',
 sidebar_donate              : 'FÈ YON DON ',
 sidebar_thanks              : 'MÈSI !!!  ',
+sidebar_DisplayOnTrezor     : 'Afficher l\'adresse sur TREZOR',
+sidebar_DisplayOnLedger     : 'Afficher l\'adresse sur Ledger',	
 
 /* Decrypt Panel */                       /* PANO DECHIFRE */							
 decrypt_Access              : 'KÒMAN W’ VLE ANTRE NAN BOUS OU A ? ',						
 decrypt_Title               : 'CHWAZI FÒM OU VLE METE KLE SEKRÈ W’ LA ',							
 decrypt_Select              : 'CHWAZI YON BOUS ',
-  
-/* Mnemonic */
-MNEM_1                      : 'Please select the address you would like to interact with. ',
-MNEM_2                      : 'Your single HD mnemonic phrase can access a number of wallets / addresses. Please select the address you would like to interact with at this time. ',
-MNEM_more                   : 'More Addresses ',
-MNEM_prev                   : 'Previous Addresses ',
-
-/* Hardware wallets */
-x_Ledger                    : 'Ledger Nano S ',
-ADD_Ledger_1                : 'Connect your Ledger Nano S ',
-ADD_Ledger_2                : 'Open the Ethereum application (or a contract application) ',
-ADD_Ledger_3                : 'Verify that Browser Support is enabled in Settings ',
-ADD_Ledger_4                : 'If no Browser Support is found in settings, verify that you have [Firmware >1.2](https://www.ledgerwallet.com/apps/manager) ',
-ADD_Ledger_0a               : 'Re-open MyEtherWallet on a secure (SSL) connection ',
-ADD_Ledger_0b               : 'Re-open MyEtherWallet using [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/) ',
-ADD_Ledger_scan             : 'Connect to Ledger Nano S ',
-x_Trezor                    : 'TREZOR ',
-ADD_Trezor_scan             : 'Connect to TREZOR ',
 
 /* Add Wallet */             /* METE YON BOUS */					
 ADD_Label_1                 : 'KISA W’ VLE FÈ ?  ',						
@@ -169,7 +152,11 @@ ADD_Radio_3                 : 'KOLE/PRAN KLE SEKRÈ W’ LA ',
 ADD_Radio_4                 : 'METE YON KONT ',						
 ADD_Radio_5                 : 'KOLE/ANTRE LÈT POU FRAZ KACHE W’ LA ',									
 ADD_Radio_5_Path            : 'CHWAZI HD POU LÒT WOUT ',												
-ADD_Radio_5_PathCustom      : 'KLIYAN ', 						
+ADD_Radio_5_woTrezor        : '(Jaxx, Metamask, Exodus, imToken)',
+ADD_Radio_5_withTrezor      : '(Jaxx, Metamask, Exodus, imToken, TREZOR)',
+ADD_Radio_5_PathAlternative : '(Ledger)',
+ADD_Radio_5_PathTrezor      : '(TREZOR)',
+ADD_Radio_5_PathCustom      : 'Personnalisé',					
 ADD_Label_2                 : 'BAY KONT OU A YON NON ',			 	
 ADD_Label_3                 : 'PAJ OU A GEN KÒD,  TANPRI METE KÒD SEKRÈ W’ ',												
 ADD_Label_4                 : 'METE YON KONT KI KA PARÈT ',							
@@ -179,23 +166,6 @@ ADD_Label_6                 : 'OUVRI BOUS OU A ',
 ADD_Label_6_short           : 'OUVRI ',								
 ADD_Label_7                 : 'METE YON KONT ',						
 ADD_Label_8                 : 'Password (optional): ',
-
-/* My Wallet */                               /*BOUS MWEN*/
-MYWAL_Nick                  : 'NON BOUS LA ',												
-MYWAL_Address               : 'ADRÈS BOUS LA ',														
-MYWAL_Bal                   : 'KANTITE  KÒB ',											
-MYWAL_Edit                  : 'KORIJE ',										
-MYWAL_View                  : 'GADE ',															
-MYWAL_Remove                : 'EFASE ',												
-MYWAL_RemoveWal             : 'EFASE BOUS LA ',											
-MYWAL_WatchOnly             : 'KONT OU YO KI PARÈT SELMAN ',									
-MYWAL_Viewing               : 'FÈ PARÈT BOUS YO ',		
-MYWAL_Hide                  : 'KACHE ENFÒMASYON YO SOU BOUS LA ',							
-MYWAL_Edit_2                : 'KORIJE BOUS LA ',		
-MYWAL_Name                  : 'NON BOUS LA ',					
-MYWAL_Content_1             : 'ANTANSYON ! OU PRAL EFASE BOUS OU A ',				
-MYWAL_Content_2             : 'BYEN VEYE  KE W’ **KENBE KLE SEKRÈ W’ LA/PAJ JSON AK KÒD SEKRÈ A**KI ASOSYE AK BOUS LA ANVAN W’ EFASE L’ ',												
-MYWAL_Content_3             : 'SI W’ VLE SÈVI AK BOUS SA  AVÈK MyEtherWallet CX NAN LÒT JOU YO, OU DWE METE L’ ANKÒ  SÈVI AK KLE SEKRÈ A /PAJ JSON AK KÒD SEKRÈ A ',							
 
 /* Generate Wallets */                  /* KREYE BOUS YO*/
 GEN_desc                    : 'SI W’ VLE KREYE PLIZYÈ LÒT BOUS, OU KAPAB FÈL LA ',
@@ -242,10 +212,21 @@ TOKEN_hide                  : 'KACHE TOKENS YO ',
 TRANS_desc                  : 'SI W’ VLE VOYE TOKENS YO, ALE PITO NAN PAJ « VOYE TOKENS » ',										
 TRANS_warning               : 'METE FONKSYON ‘’ETH’’ YO SÈLMAN  AK ‘’ETC SÈLMAN’’ OU FÈ W’ PASE NAN YON KONTRA. KÈK NAN SÈVIS SA YO KONN GEN PWOBLÈM  AK TRANSFÈ SA YO. POU W’  KONN PLIS ',		
 TRANS_advanced              : '+AVANSE : METE GAZ ',								
-TRANS_data                  : 'DONE ',													
+TRANS_data                  : 'DONE ',
+TRANS_sendInfo              : 'YON TRANSFÈ NÒMAL SÈVI  AK 21000 GAZ KI KOUTE 0.000441  ETH. PRI GAZ LA 0.000000021 ETH  KE NOU TE CHWAZI A ON TI JAN PI WO KE  PI PITI A ASIRE W’ POU W’ YON KONFIMASYON RAPID. NOU PA PRAN FRÈ POU TRANSFÈ A.  ',
 TRANS_gas                   : 'LIMIT AN GAZ ;// CHANJE AN ENG POU LIMIT GAZ LA ',					
-TRANS_sendInfo              : 'YON TRANSFÈ NÒMAL SÈVI  AK 21000 GAZ KI KOUTE 0.000441  ETH. PRI GAZ LA 0.000000021 ETH  KE NOU TE CHWAZI A ON TI JAN PI WO KE  PI PITI A ASIRE W’ POU W’ YON KONFIMASYON RAPID. NOU PA PRAN FRÈ POU TRANSFÈ A.  ',					
 
+/* Send Transaction Modals */
+TRANSModal_Title            : 'Transactions "ETH seulement" et "ETC seulement" ',
+TRANSModal_Content_0        : 'Note sur les transactions et services divers : ',
+TRANSModal_Content_1        : '**ETH (Transaction standard) : ** Génère une transaction par défaut directement depuis une adresse vers une autre. Son gaz par défaut est de 21000. Il est probable que toute transaction d\'ETH envoyé de cette manière sera réexécutée sur la chaîne ETC. ',
+TRANSModal_Content_2        : '**ETH seulement : ** Envoie à travers le [contrat anti-réexécution de Timon Rapp (recommandé par VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) afin de n\'envoyer que sur la chaîne **ETH**. ',
+TRANSModal_Content_3        : '**ETC seulement : ** Envoie à travers le [contrat anti-réexécution de Timon Rapp (recommandé par VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) afin de n\'envoyer que sur la chaîne **ETC**. ',
+TRANSModal_Content_4        : '**Coinbase & ShapeShift : ** N\'envoyer que par transaction standard. Si vous utilisez les contrats d\'envoi sur une seule chaîne, vous devrez joindre leur équipe de support pour ajouter manuellement la somme à votre solde ou pour vous rembourser. [Vous pouvez aussi essayer l\'outil "split" de Shapeshift.](https://split.shapeshift.io/) ',
+TRANSModal_Content_5        : '**Kraken & Poloniex :** Pas de problème connu. Utilisez ce que vous voulez. ',
+TRANSModal_Yes              : 'Génial, j\'ai compris. ',
+TRANSModal_No               : 'Aïe, je comprends de moins en moins. Aidez-moi. ',
+	
 /* Offline Transaction */   /*TRANSFÈ SAN SIYAL*/
 OFFLINE_Title               : 'KREYE EPI VOYE YON TRANFÈ SAN SIYAL ',						
 OFFLINE_Desc                : 'KREYASYON YON TRANSFÈ SAN SIYAL FÈT NAN TWA ETAP. ETAP 1 AK 3 YO FÈT NAN YON KOMPITÈ KI GEN SIYAL AK ETAP 2 A NAN YON KOMPITÈ KI PA KONEKTE AK REZO A. SA PÈMÈT OU IZOLE NÈT  KLE SEKRÈ W’ LA POU TOUT MACHIN KI KONEKTE AK INTÈNÈT ',									
@@ -268,19 +249,68 @@ OFFLINE_Step2_Label_7       : 'ANTRE/ CHWAZI KLE SEKRÈ W’ LA / JSON ',
 OFFLINE_Step3_Title         : 'ETAP 3 : VOYE/ FÈ WÈ TRANSFÈ A ( KOMPITÈ AK SIYAL) ',												
 OFFLINE_Step3_Label_1       : 'KOPYE TRANSFÈ A LA SIYEN NAN ETAP 2 A AK PEZE SOU BOUTON  ”VOYE TRANSFÈ A ',				
 
-/* Contracts */
-CONTRACT_Title              : 'Contract Address ',
-CONTRACT_Title_2            : 'Select Existing Contract ',
-CONTRACT_Json               : 'ABI / JSON Interface ',
-CONTRACT_Interact_Title     : 'Read / Write Contract ',
-CONTRACT_Interact_CTA       : 'Select a function ',
-CONTRACT_ByteCode           : 'Byte Code ',
-CONTRACT_Read               : 'READ ',
-CONTRACT_Write              : 'WRITE ',
-DEP_generate                : 'Generate Bytecode ',
-DEP_generated               : 'Generated Bytecode ',
-DEP_signtx                  : 'Sign Transaction ',
-DEP_interface               : 'Generated Interface ',
+/* Sign Message */                    /*SIYEN YON MESAJ*/
+MSG_message                 : 'MESAJ ',										
+MSG_date                    : 'DAT ',						 							
+MSG_signature               : 'SIYATI.',								
+MSG_verify                  : 'VERIFYE YON MESAJ ',							
+MSG_info1                   : 'METE DAT JOU A POU SIYATI A PA SÈVI ANKÒ NAN YON LÒT MOMAN ',	
+MSG_info2                   : 'METE TI NON W’ NAN KOTE W’ KONN SÈVI AK LI A POU YON LÒT MOUN PA SÈVI AK LI ',		
+MSG_info3                   : 'METE YON SÈL BON REZON POU MESAJ LA  POU L’ PA SÈVI ANKÒ POU YON LÒT  REZON ',			
+
+/* My Wallet */                               /*BOUS MWEN*/
+MYWAL_Nick                  : 'NON BOUS LA ',												
+MYWAL_Address               : 'ADRÈS BOUS LA ',														
+MYWAL_Bal                   : 'KANTITE  KÒB ',											
+MYWAL_Edit                  : 'KORIJE ',										
+MYWAL_View                  : 'GADE ',															
+MYWAL_Remove                : 'EFASE ',												
+MYWAL_RemoveWal             : 'EFASE BOUS LA ',											
+MYWAL_WatchOnly             : 'KONT OU YO KI PARÈT SELMAN ',									
+MYWAL_Viewing               : 'FÈ PARÈT BOUS YO ',		
+MYWAL_Hide                  : 'KACHE ENFÒMASYON YO SOU BOUS LA ',							
+MYWAL_Edit_2                : 'KORIJE BOUS LA ',		
+MYWAL_Name                  : 'NON BOUS LA ',					
+MYWAL_Content_1             : 'ANTANSYON ! OU PRAL EFASE BOUS OU A ',				
+MYWAL_Content_2             : 'BYEN VEYE  KE W’ **KENBE KLE SEKRÈ W’ LA/PAJ JSON AK KÒD SEKRÈ A**KI ASOSYE AK BOUS LA ANVAN W’ EFASE L’ ',												
+MYWAL_Content_3             : 'SI W’ VLE SÈVI AK BOUS SA  AVÈK MyEtherWallet CX NAN LÒT JOU YO, OU DWE METE L’ ANKÒ  SÈVI AK KLE SEKRÈ A /PAJ JSON AK KÒD SEKRÈ A ',							
+	
+/* View Wallet Details */            /*GADE DETAY YO KI NAN BOUS MWEN AN.*/										
+VIEWWALLET_Subtitle         : 'SA PÈMÈT OU POU W’ PRAN PLIZYÈ VÈZSYON KLE SEKRÈ  YO EPI AK SÒTI BOUS OU A ANKÒ SOU PAPYE. OU DWE FÈ L’ POU [ PRAN KONT OU A NAN GETH/MIST] (http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). SI W’ VLE  WÈ VALÈ KÒB OU A, NOU MANDE W’ POU SÈVI AK YON EKSPLORATÈ POU BLOCKCHAIN TANKOU[etherscan.io](http://etherscan.io/).',   						
+VIEWWALLET_Subtitle_Short   : 'SA PÈMÈT OU POU W’ PRAN PLIZYÈ VÈZSYON KLE SEKRÈ  YO EPI POU SÒTI BOUS OU A ANKÒ SOU PAPYE ',									
+VIEWWALLET_SuccessMsg       : 'SIKSÈ ! MEN DETAY YO POU BOUS OU A ',
+VIEWWALLET_ShowPrivKey      : '(show)',
+VIEWWALLET_HidePrivKey      : '(hide)',
+
+/* Mnemonic */
+MNEM_1                      : 'Please select the address you would like to interact with. ',
+MNEM_2                      : 'Your single HD mnemonic phrase can access a number of wallets / addresses. Please select the address you would like to interact with at this time. ',
+MNEM_more                   : 'More Addresses ',
+MNEM_prev                   : 'Previous Addresses ',
+
+/* Hardware wallets */
+ADD_Ledger_1                : 'Connect your Ledger Nano S ',
+ADD_Ledger_2                : 'Open the Ethereum application (or a contract application) ',
+ADD_Ledger_3                : 'Verify that Browser Support is enabled in Settings ',
+ADD_Ledger_scan             : 'Se connecter au Ledger Wallet ',
+ADD_Ledger_4                : 'If no Browser Support is found in settings, verify that you have [Firmware >1.2](https://www.ledgerwallet.com/apps/manager) ',
+ADD_Ledger_0a               : 'Re-open MyEtherWallet on a secure (SSL) connection ',
+ADD_Ledger_0b               : 'Re-open MyEtherWallet using [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/) ',
+
+ADD_MetaMask : 'Connexion à MetaMask ',	
+
+x_Trezor                    : 'TREZOR ',
+ADD_Trezor_scan             : 'Connexion au TREZOR ',
+ADD_Trezor_select           : 'Ceci est une graine (_seed_) TREZOR ',
+ADD_Trezor_select           : 'Ceci est une _seed_ TREZOR ',
+x_DigitalBitbox             : 'Digital Bitbox ',
+ADD_DigitalBitbox_0a        : 'Réouvrir MyEtherWallet sur une connexion sécurisée (SSL) ',
+ADD_DigitalBitbox_0b        : 'Réouvrir MyEtherWallet avec [Chrome](https://www.google.com/chrome/browser/desktop/) ou [Opera](https://www.opera.com/) ',
+ADD_DigitalBitbox_scan : 'Se connecter au Digital Bitbox ',
+
+/* Chrome Extension */  /* CHROME EKSTANSYON */						
+CX_error_1                  : 'OU PA GEN BOUS KI ANREJISTRE. PEZE SOU[‘’METE YON BOUS’’] (/cx-wallet.html#add-wallet) POU METE YOUN !.	',					
+CX_quicksend                : 'VOYE RAPID ; // SI JAN L’ TRADWI A PA NAN GOU W’ JIS SÈVI AK ”SEND” ',												
 
 /* Misc *//* Node Switcher */                 /*PLIZYÈ*/ /* NE YOUN AL NAN LÒT*/
 NODE_Title                  : 'ENSTALE NE SEKRÈ W’ LA ',																												
@@ -289,11 +319,25 @@ NODE_Warning                : 'NE W’ LA DWE AN HTTPS POU W’ KONEKTE AVÈK MY
 NODE_Name                   : 'NON NE A ',										
 NODE_Port                   : 'PÒ NE A ',									
 NODE_CTA                    : 'ANREJISTRE EPI SÈVI AK YON NE SEKRÈ ',	
-	  
+
+/* Contracts */
+CONTRACT_Title              : 'Adresse de contrat ',
+CONTRACT_Title_2            : 'Sélectionner un contrat existant ',
+CONTRACT_Json               : 'Interface ABI / JSON ',
+CONTRACT_Interact_Title     : 'Lecture / écriture de contrat ',
+CONTRACT_Interact_CTA       : 'Sélectionnez une fonction ',
+CONTRACT_ByteCode           : 'Bytecode ',
+CONTRACT_Read               : 'LIRE ',
+CONTRACT_Write              : 'ECRIRE ',
+DEP_generate                : 'Générer le bytecode ',
+DEP_generated               : 'Bytecode généré ',
+DEP_signtx                  : 'Signer la transaction ',
+DEP_interface : 'Interface générée '
+
 /* Swap / Exchange */                /*CHANJE*/							
-SWAP_rates                  : 'VALÈ LI YE KOUNYE A” ',			
-SWAP_init_1                 : 'M VLE CHANJE	',						
-SWAP_init_2                 : 'M’ VLE CHANJE X ETH POU X BTC ',
+SWAP_rates                  : 'VALÈ LI YE KOUNYE A ',			
+SWAP_init_1                 : 'M VLE CHANJE ',						
+SWAP_init_2                 : 'POU ', //M’ VLE CHANJE X ETH POU X BTC '
 SWAP_init_CTA               : 'ANN KONTINYE',											
 SWAP_information            : 'ENFÒMASYON W’ YO',					
 SWAP_send_amt               : 'KANTITE POU VOYE ',						
@@ -311,27 +355,7 @@ SWAP_progress_4             : 'VOYE {{REZILTA LÒD. KREYASYON.MONNEN}} YO ',
 SWAP_progress_5             : 'LÒD AKONPLI ',						
 SWAP_order_CTA              : 'TANPRI VOYE 1 ETH ',		
 SWAP_unlock                 : 'OUVRI BOUS OU A POU W’ VOYE ETH YO OSWA TOKENS YO SÒTI DIRÈKTEMAN NAN SA ',		
-
-/* Sign Message */                    /*SIYEN YON MESAJ*/
-MSG_message                 : 'MESAJ ',										
-MSG_date                    : 'DAT ',						 							
-MSG_signature               : 'SIYATI.',								
-MSG_verify                  : 'VERIFYE YON MESAJ ',							
-MSG_info1                   : 'METE DAT JOU A POU SIYATI A PA SÈVI ANKÒ NAN YON LÒT MOMAN ',	
-MSG_info2                   : 'METE TI NON W’ NAN KOTE W’ KONN SÈVI AK LI A POU YON LÒT MOUN PA SÈVI AK LI ',		
-MSG_info3                   : 'METE YON SÈL BON REZON POU MESAJ LA  POU L’ PA SÈVI ANKÒ POU YON LÒT  REZON ',			
-
-/* View Wallet Details */            /*GADE DETAY YO KI NAN BOUS MWEN AN.*/										
-VIEWWALLET_Subtitle         : 'SA PÈMÈT OU POU W’ PRAN PLIZYÈ VÈZSYON KLE SEKRÈ  YO EPI AK SÒTI BOUS OU A ANKÒ SOU PAPYE. OU DWE FÈ L’ POU [ PRAN KONT OU A NAN GETH/MIST] (http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). SI W’ VLE  WÈ VALÈ KÒB OU A, NOU MANDE W’ POU SÈVI AK YON EKSPLORATÈ POU BLOCKCHAIN TANKOU[etherscan.io](http://etherscan.io/).',   						
-VIEWWALLET_Subtitle_Short   : 'SA PÈMÈT OU POU W’ PRAN PLIZYÈ VÈZSYON KLE SEKRÈ  YO EPI POU SÒTI BOUS OU A ANKÒ SOU PAPYE ',									
-VIEWWALLET_SuccessMsg       : 'SIKSÈ ! MEN DETAY YO POU BOUS OU A ',
-VIEWWALLET_ShowPrivKey      : '(show)',
-VIEWWALLET_HidePrivKey      : '(hide)',
-						
-/* Chrome Extension */  /* CHROME EKSTANSYON */						
-CX_error_1                  : 'OU PA GEN BOUS KI ANREJISTRE. PEZE SOU[‘’METE YON BOUS’’] (/cx-wallet.html#add-wallet) POU METE YOUN !.	',					
-CX_quicksend                : 'VOYE RAPID ; // SI JAN L’ TRADWI A PA NAN GOU W’ JIS SÈVI AK ”SEND” ',												
-
+	
 /* Error Messages */       /*MESAJ PA BON	*/								
 ERROR_0                     : 'ANTRE YON KANTITE KI VALAB ',																	
 ERROR_1                     : 'KÒD SEKRÈ W’ LA DWE GEN POU PI PITI 9 KARAKTÈ. BYEN VEYE KE SE YON GWO KÒD SEKRÈ ',						
@@ -369,7 +393,10 @@ ERROR_32                    : 'LI ENPOSIB POU W’ KONEKTE AK NE A. RAFRECHI PAJ
 ERROR_33                    : 'BOUS W’AP ESEYE OUVRI A LI PA GEN MENNM ADRÈS AK MET LI;33 ',																	
 ERROR_34                    : 'NON W’AP TANTE POU W’ KA WÈ A PA GEN MENM ADRÈS AK NON OU TE ANTRE A // 34 ',     
 ERROR_35                    : 'Input address is not checksummed. <a href="https://myetherwallet.groovehq.com/knowledge_base/topics/not-checksummed-shows-when-i-enter-an-address" target="_blank"  rel="noopener"> More info</a>', // 35
+ERROR_36                    : 'Entrez une empreinte (_hash_) de TX valide', // 36
+ERROR_37                    : 'Entrez une chaîne hex valide (0-9, a-f)', // 37
 
+	
 SUCCESS_1                   : 'ADRÈS LA VALAB ',
 SUCCESS_2                   : 'BOUS DEKÒDE AVÈK SIKSÈ ',
 SUCCESS_3                   : 'TX ALE NAN BLOCKCHAIN NAN. PEZE BOUTON AN POU W’ KA WÈ TRANSFÈ W’ LA & VERIFYE SI SE POU OU AK SI LI PA MANKE GAZ OSWA KÈK ERÈ NAN KONTRA EKZEKISYON L’YO ',																
@@ -377,6 +404,7 @@ SUCCESS_4                   : 'BOUS LA METE AVÈK SIKSÈ ',
 SUCCESS_5                   : 'PAJ CHWAZI ',							
 SUCCESS_6                   : 'OU BYEN KONEKTE ', 	 				
 SUCCESS_7                   : 'SIYATI MESAJ LA VERIFYE ',
+	
 WARN_Send_Link              : 'OU RIVE LA GRAS AK YON LYEN KI PLEN ADRÈS LA, KANTITE A, GAZ LA OSWA ESPAS DONE  W’ YO. OU KAPAB KORIJE TOUT ENFÒMASYON YO  ANVAN W’ VOYE YO . OUVRI BOUS OU A POU W ‘ KÒMANSE ',
 
 /* Geth Error Messages */       /* GETH MESAJ ERÈ YO*/						
