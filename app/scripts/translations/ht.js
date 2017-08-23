@@ -67,8 +67,8 @@ TXFEE_Desc                  : 'The TX Fee is paid to miners for including your T
 
 
 /* Navigation*/
-<<<<<<< patch-2
-NAV_AddWallet               : 'METE YON BOUS ',  
+
+NAV_AddWallet               : 'METE YON BOUS. ',  
 NAV_BulkGenerate            : 'KREYE BOUS YO PA LO ',					
 NAV_Contact                 : 'KONTAK ', 
 NAV_Contracts               : 'KONTRA YO ',						
@@ -566,7 +566,7 @@ HELP_12_Desc_6              : 'ALE NA SEKSYON "PRAN PAJ JSON DOKIMAN- FÒM GETH/
 HELP_12_Desc_7              : 'OUVRI APLIKASYON  ETHEREUM WALLET. ',
 HELP_12_Desc_8              : 'NA BA MENI AN, ALE NAN "ACCOUNTS"->’’BACKUP -> "ACCOUNTS" ',
 HELP_12_Desc_9              : 'SA OUVRI DOSYE KEYSTORES W’ LA. KOPYE L’ PAJ OU SÒT PRAN AN (UTC—2016-04-14)……../) NAN DOSYE SA. ',
-HELP_12_Desc_10             : ' KONT OU A DWE PARÈT  BYEN VIT ANBA "ACCOUNTS."
+HELP_12_Desc_10             : ' KONT OU A DWE PARÈT  BYEN VIT ANBA "ACCOUNTS." ',
 HELP_12_Desc_11             : 'AVÈK KLE SEKRÈ W’ LA SAN KÒD… ',
 HELP_12_Desc_12             : 'SI W’ PAT GENTAN GEN KLE SEKRÈ W’LA SAN KÒD, ALE NAN PAJ  "FÈ PARÈT YON BOUS". ',
 HELP_12_Desc_13             : 'CHWAZI PAJ BOUS OU A-OSWA- ANTRE/KOLE KLE SEKRÈ W ‘ LA POU W ‘ OUVRI BOUS OU A. ',
